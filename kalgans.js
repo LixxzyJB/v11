@@ -2,7 +2,7 @@
 › Create By Haikal
 › Base Ori Haikal
 
-🌷 KALAU MAU RENAME TARO CREDITS GUA : rexju☆ */
+🌷 KALAU MAU RENAME TARO CREDITS GUA : 𝐿𝑖𝑥𝑥𝑧𝑦 䄀 */
 
 require('./hwkal')
 const { default: makeWASocket, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
@@ -152,7 +152,7 @@ let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid"
 he = `HELLO 👋 SELAMAT DATANG DI GROUP ${metadata.subject} @${num.split("@")[0]}\n\n${metadata.desc}`
 let link = `https://youtube.com/c/HwModsWa857`
 let buttons = [
-{buttonId: `rexju☆`, buttonText: {displayText: buttonvirus}, type: 1},
+{buttonId: `𝐿𝑖𝑥𝑥𝑧𝑦`, buttonText: {displayText: buttonvirus}, type: 1},
 ]
 let buttonMessage = {
 document: fs.readFileSync('./baseikal/lib/tes.xlsx'),
@@ -162,12 +162,12 @@ mentions: [num],
 fileName: `HELLO 👋 SELAMAT DATANG DI GROUP ${metadata.subject}`,
 fileLength: 99999999999999,
 caption: he,
-footer: `© HamzX BOTZ☆`,
+footer: `© 𝐿𝑖𝑥𝑥𝑧𝑦 䄀`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: `Jangan Lupa Tersenyum ☺️`,
-body: `SUBSCRIBE HamzX BOTZ☆`,
+body: `SUBSCRIBE 𝐿𝑖𝑥𝑥𝑧𝑦 䄀`,
 mediaType:2,
 thumbnail: buffer,
 sourceUrl: link,
@@ -175,11 +175,11 @@ mediaUrl: link,}}}
 //=================================================//
 haikal.sendMessage(anu.id, buttonMessage, {quoted:fgclink})
 } else if (anu.action == 'remove') {
-let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6281214281312@whatsapp.net"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289653784091@whatsapp.net"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 he = `SELAMAT TINGGAL KAWAN 👋 ${metadata.subject} @${num.split("@")[0]}\n\n${metadata.desc}`
-let link = `https://youtube.com/c/HwModsWa857`
+let link = `https://youtube.com/@user-pb3qt2ek1x`
 let buttons = [
-{buttonId: `rexju☆`, buttonText: {displayText: buttonvirus}, type: 1},
+{buttonId: `𝐿𝑖𝑥𝑥𝑧𝑦 䄀`, buttonText: {displayText: buttonvirus}, type: 1},
 ]
 let buttonMessage = {
 document: fs.readFileSync('./baseikal/lib/tes.xlsx'),
@@ -189,12 +189,12 @@ mentions: [num],
 fileName: `SELAMAT TINGGAL 👋 ${metadata.subject}`,
 fileLength: 99999999999999,
 caption: he,
-footer: `© HamzX BOTZ☆`,
+footer: `© 𝐿𝑖𝑥𝑥𝑧𝑦 䄀`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: `Jangan Lupa Tersenyum ☺️`,
-body: `SUBSCRIBE rexju☆`,
+body: `SUBSCRIBE 𝐿𝑖𝑥𝑥𝑧𝑦 䄀`,
 mediaType:2,
 thumbnail: buffer,
 sourceUrl: link,
