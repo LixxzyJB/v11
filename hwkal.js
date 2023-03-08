@@ -31,8 +31,8 @@ global.botname = '𝐿𝑖𝑥𝑥𝑧𝑦' //ubah jadi nama bot mu, note tanda 
 global.footer = '𝐿𝑖𝑥𝑥𝑧𝑦' //ubah jadi nama mu, note tanda ' gausah di hapus!
 //=================================================//
 // Other
-global.owner = ['6289653784091'] // ubah aja pake nomor lu
-global.premium = ['6289653784091'] // ubah aja pake nomor lu
+global.owner = ['6282261647587'] // ubah aja pake nomor lu
+global.premium = ['6282261647587'] // ubah aja pake nomor lu
 global.packname = '𝐿𝑖𝑥𝑥𝑧𝑦' // ubah aja
 global.ownerr = ['𝐿𝑖𝑥𝑥𝑧𝑦'] // ubaha aja
 global.author = '𝐿𝑖𝑥𝑥𝑧𝑦' //ubah aja
